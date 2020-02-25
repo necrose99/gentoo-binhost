@@ -5,17 +5,17 @@ ACCEPT_RESTRICT: *
 ARCH: arm64
 CBUILD: aarch64-unknown-linux-gnu
 CHOST: aarch64-unknown-linux-gnu
-CONFIG_PROTECT: /boot/cmdline.txt /boot/config.txt /boot/startup.sh /etc /usr/share/gnupg/qualified.txt
+CONFIG_PROTECT: /boot/cmdline.txt /boot/config.txt /boot/startup.sh /etc /etc/entropy /usr/share/gnupg/qualified.txt
 CONFIG_PROTECT_MASK: /etc/ca-certificates.conf /etc/dconf /etc/env.d /etc/fonts/fonts.conf /etc/gconf /etc/gentoo-release /etc/revdep-rebuild /etc/sandbox.d /etc/terminfo
 ELIBC: glibc
 FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs buildpkg config-protect-if-modified distlocks ebuild-locks fixlafiles getbinpkg ipc-sandbox merge-sync multilib-strict network-sandbox news parallel-fetch pid-sandbox preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr
 GENTOO_MIRRORS: http://gentoo.mirrors.easynews.com/linux/gentoo/ http://www.gtlib.gatech.edu/pub/gentoo rsync://rsync.gtlib.gatech.edu/gentoo ftp://ftp.ussg.iu.edu/pub/linux/gentoo https://gentoo.ussg.indiana.edu/ http://gentoo.ussg.indiana.edu/ https://gentoo.osuosl.org/ http://gentoo.osuosl.org/ http://gentoo.mirrors.pair.com/ https://mirrors.rit.edu/gentoo/ http://mirrors.rit.edu/gentoo/ ftp://mirrors.rit.edu/gentoo/ rsync://mirrors.rit.edu/gentoo/ https://mirror.sjc02.svwh.net/gentoo/ http://mirror.sjc02.svwh.net/gentoo/ http://gentoo.mirrors.tds.net/gentoo http://mirror.lug.udel.edu/pub/gentoo/ http://gentoo.cs.utah.edu/
 IUSE_IMPLICIT: prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 506
+PACKAGES: 496
 PROFILE: default/linux/arm64/17.0/desktop
-TIMESTAMP: 1582613422
-USE: X a52 aac acl acpi ada_target_gnat_2018 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias arm64 berkdb blake2 bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words caps cdda cdr cli clockdiff collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog consolekit cpu_flags_arm_crc32 cpu_flags_arm_edsp cpu_flags_arm_thumb cpu_flags_arm_thumb2 cpu_flags_arm_v4 cpu_flags_arm_v5 cpu_flags_arm_v6 cpu_flags_arm_v7 cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 crypt cups cxx dbus dri dts dvdr elibc_glibc emboss encode exif flac fortran gcrypt gdbm geoip2 gif gles2 gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx gtk iconv icu idn input_devices_evdev ipv6 jpeg json kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms ldap libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libtirpc lz4 lzma lzo mad metalink mng mp3 mp4 mpeg ncurses nettle nls nptl office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php7-2 png policykit postgres_targets_postgres10 postgres_targets_postgres11 ppds python python_single_target_python3_6 python_targets_python2_7 python_targets_python3_6 qt5 readline ruby_targets_ruby24 ruby_targets_ruby25 sctp seccomp smtp snmp spell split-usr ssl startup-notification svg tcpd tftpd tiff tools tracepath traceroute6 truetype udev udisks unicode upower usb userland_GNU utils video_cards_fbdev video_cards_mali video_cards_panfrost video_cards_vc4 vorbis wxwidgets x264 xattr xcb xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid zlib zstd
+TIMESTAMP: 1582617994
+USE: X a52 aac acl acpi ada_target_gnat_2018 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias arm64 berkdb blake2 bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words caps cdda cdr cli clockdiff collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog consolekit cpu_flags_arm_crc32 cpu_flags_arm_edsp cpu_flags_arm_thumb cpu_flags_arm_thumb2 cpu_flags_arm_v4 cpu_flags_arm_v5 cpu_flags_arm_v6 cpu_flags_arm_v7 cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 crypt cups cxx dbus dri dts dvdr elibc_glibc emboss encode exif flac fortran gcrypt gdbm geoip2 gif gles2 gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx gtk iconv icu idn input_devices_evdev ipv6 jpeg json kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms ldap libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libtirpc lz4 lzo mad metalink mng mp3 mp4 mpeg ncurses nettle nls nptl office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php7-2 png policykit postgres_targets_postgres10 postgres_targets_postgres11 ppds python python_single_target_python3_6 python_targets_python2_7 python_targets_python3_6 qt5 readline ruby_targets_ruby24 ruby_targets_ruby25 sctp seccomp smtp snmp spell split-usr ssl startup-notification svg tcpd tftpd tiff tools tracepath traceroute6 truetype udev udisks unicode upower usb userland_GNU utils video_cards_fbdev video_cards_mali video_cards_panfrost video_cards_vc4 vorbis wxwidgets x264 xattr xcb xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid zlib zstd
 USERLAND: GNU
 USE_EXPAND: ABI_MIPS ABI_PPC ABI_RISCV ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_SSL ELIBC ENLIGHTENMENT_MODULES FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LIRC_DEVICES LLVM_TARGETS MONKEYD_PLUGINS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFED_DRIVERS OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS USERLAND UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XFCE_PLUGINS XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_PPC ABI_RISCV ABI_S390 ABI_X86 CPU_FLAGS_PPC CPU_FLAGS_X86 ELIBC KERNEL USERLAND
@@ -190,6 +190,22 @@ SIZE: 31923
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582606811
 REPO: sabayon-distro
+
+BUILD_TIME: 1582613923
+CPV: app-admin/equo-302
+DEFINED_PHASES: compile install setup
+DEPEND: >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7] ~sys-apps/entropy-302[python_targets_python2_7(-),-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)] app-text/asciidoc
+EAPI: 5
+IUSE: +python_targets_python2_7 +python_single_target_python2_7
+KEYWORDS: ~amd64 ~arm ~x86
+LICENSE: GPL-2
+MD5: 44223ef062f278bd5b1540e4f48de60c
+RDEPEND: >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7] ~sys-apps/entropy-302[python_targets_python2_7(-),-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)] sys-apps/file[python]
+SHA1: 1cb1c6736c49fc368b0120f1523e03852fc49b22
+SIZE: 562508
+USE: arm64 elibc_glibc kernel_linux python_single_target_python2_7 python_targets_python2_7 userland_GNU
+MTIME: 1582613950
+REPO: gentoo
 
 BDEPEND: >=dev-lang/go-1.12
 BUILD_TIME: 1582612221
@@ -546,8 +562,10 @@ EAPI: 7
 IUSE: acl alsa aqua athena cairo dbus dynamic-loading games gconf gfile gif gpm gsettings gtk gtk2 gzip-el imagemagick +inotify jpeg kerberos lcms libxml2 livecd m17n-lib mailutils motif png selinux sound source ssl svg systemd +threads tiff toolkit-scroll-bars wide-int X Xaw3d xft +xpm xwidgets zlib
 KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~riscv ~sh ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE: GPL-3+ FDL-1.3+ BSD HPND MIT W3C unicode PSF-2
+MD5: 09dfa56a7eb43513453a2c732b329f83
 RDEPEND: sys-libs/ncurses:0/6= >=app-eselect/eselect-emacs-1.16 >=app-emacs/emacs-common-gentoo-1.5[X] virtual/acl media-libs/alsa-lib sys-apps/dbus sys-libs/gpm media-libs/lcms:2 net-libs/liblockfile net-libs/gnutls:0/30= sys-libs/zlib x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXext x11-libs/libXfixes x11-libs/libXinerama x11-libs/libXrandr x11-libs/libxcb x11-misc/xbitmaps media-libs/giflib:0/7= virtual/jpeg:0/0= >=media-libs/libpng-1.4:0/16= >=gnome-base/librsvg-2.0 media-libs/tiff:0 x11-libs/libXpm media-libs/fontconfig media-libs/freetype x11-libs/libXft x11-libs/libXrender x11-libs/gtk+:3 !<app-editors/emacs-vcs-26.3
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libICE.so.6 libSM.so.6 libX11-xcb.so.1 libX11.so.6 libXext.so.6 libXfixes.so.3 libXft.so.2 libXpm.so.4 libXrender.so.1 libacl.so.1 libanl.so.1 libasound.so.2 libc.so.6 libcairo.so.2 libdbus-1.so.3 libfontconfig.so.1 libfreetype.so.6 libgdk-3.so.0 libgdk_pixbuf-2.0.so.0 libgif.so.7 libglib-2.0.so.0 libgnutls.so.30 libgobject-2.0.so.0 libgpm.so.1 libgtk-3.so.0 libjpeg.so.62 liblcms2.so.2 liblockfile.so.1 libm.so.6 libpango-1.0.so.0 libpng16.so.16 libpthread.so.0 librsvg-2.so.2 librt.so.1 libtiff.so.5 libtinfo.so.6 libxcb.so.1 libz.so.1
+SHA1: 803e90063a8cad7a985629e429870d1580f79605
 SIZE: 38956528
 SLOT: 26
 USE: X acl alsa arm64 dbus elibc_glibc gif gpm gtk inotify jpeg kernel_linux lcms png ssl svg threads tiff toolkit-scroll-bars userland_GNU xft xpm zlib
@@ -1514,22 +1532,6 @@ SHA1: e98e22f3cfe259051c6422cf2177ff95828e1362
 SIZE: 54901375
 USE: arm64 elibc_glibc kernel_linux nls userland_GNU
 MTIME: 1574042838
-REPO: gentoo
-
-BDEPEND: dev-lang/perl
-BUILD_TIME: 1564864978
-CPV: dev-lang/nasm-2.14.02
-DEFINED_PHASES: compile configure install
-EAPI: 7
-IUSE: doc
-KEYWORDS: amd64 ~ia64 ~ppc64 x86 ~x64-cygwin ~amd64-fbsd ~amd64-linux ~x86-linux ~x64-macos
-LICENSE: BSD-2
-MD5: 0329cfee51083f72bbffa25ab7cff6d9
-REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6
-SHA1: 525d40094ca5b5c07444c8ff0103d3b9b0e42da4
-SIZE: 635943
-USE: arm64 elibc_glibc kernel_linux userland_GNU
-MTIME: 1564864985
 REPO: gentoo
 
 BDEPEND: sys-libs/binutils-libs:0/2.34= virtual/pkgconfig
@@ -4941,23 +4943,6 @@ USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582542138
 REPO: gentoo
 
-BDEPEND: >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
-BUILD_TIME: 1564345719
-CPV: net-fs/cifs-utils-6.9
-DEFINED_PHASES: configure install postinst prepare setup
-DEPEND: !net-fs/mount-cifs !<net-fs/samba-3.6_rc1 sys-apps/keyutils sys-libs/talloc virtual/krb5 sys-libs/libcap-ng virtual/pam
-EAPI: 7
-IUSE: +acl +ads +caps creds pam kernel_linux
-KEYWORDS: ~alpha ~amd64 ~arm arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-linux
-LICENSE: GPL-3
-PDEPEND: >=net-fs/samba-4.0.0_alpha1
-RDEPEND: !net-fs/mount-cifs !<net-fs/samba-3.6_rc1 sys-apps/keyutils sys-libs/talloc virtual/krb5 sys-libs/libcap-ng virtual/pam
-REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libcap-ng.so.0 libdl.so.2 libkeyutils.so.1 libkrb5.so.3 libpam.so.0 libtalloc.so.2 libwbclient.so.0
-SIZE: 243274
-USE: acl ads arm64 caps elibc_glibc kernel_linux pam userland_GNU
-MTIME: 1564345728
-REPO: gentoo
-
 BDEPEND: net-libs/rpcsvc-proto virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
 BUILD_TIME: 1575663079
 CPV: net-fs/nfs-utils-2.4.2-r1
@@ -4967,10 +4952,12 @@ EAPI: 7
 IUSE: caps ipv6 junction kerberos ldap +libmount nfsdcld +nfsidmap +nfsv4 nfsv41 selinux tcpd +uuid kernel_linux
 KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~riscv ~s390 ~sh ~sparc ~x86
 LICENSE: GPL-2
+MD5: 576e7c877d346003df2efbdef57c3b6b
 PROVIDES: arm_64: libnfsidmap.so.1 nsswitch.so static.so umich_ldap.so
 RDEPEND: >=dev-db/sqlite-3.3 dev-libs/libxml2 net-libs/libtirpc:0/3= >=net-nds/rpcbind-0.2.4 sys-libs/e2fsprogs-libs net-nds/openldap sys-apps/util-linux dev-libs/libevent:0/2.1-7= >=sys-apps/keyutils-1.5.9:0/1.9= sys-apps/tcp-wrappers sys-apps/util-linux !net-libs/libnfsidmap !net-nds/portmap !<sys-apps/openrc-0.13.9
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libblkid.so.1 libc.so.6 libdl.so.2 libevent-2.1.so.7 libkeyutils.so.1 libldap-2.4.so.2 libmount.so.1 libpthread.so.0 libresolv.so.2 libsqlite3.so.0 libtirpc.so.3 libwrap.so.0
 RESTRICT: test
+SHA1: 0302c225306e649be23a3855b4153f61e1ba4288
 SIZE: 517557
 USE: arm64 elibc_glibc ipv6 kernel_linux ldap libmount nfsidmap nfsv4 tcpd userland_GNU uuid
 MTIME: 1575663087
@@ -4984,10 +4971,12 @@ EAPI: 6
 IUSE: acl addc addns ads ceph client cluster cups debug dmapi fam gpg iprint json ldap pam profiling-data python quota selinux syslog system-heimdal +system-mitkrb5 systemd test winbind zeroconf python_targets_python3_6 python_targets_python3_7 python_single_target_python3_6 python_single_target_python3_7 abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_riscv_lp64d abi_riscv_lp64 abi_s390_32 abi_s390_64 kernel_linux
 KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
 LICENSE: GPL-3
+MD5: 72703edc9ea4fc919d2b9f5c6a465d36
 PROVIDES: arm_64: acl_tdb.so acl_xattr.so aio_fork.so aio_pthread.so audit.so autorid.so btrfs.so cap.so catia.so commit.so crossrename.so default_quota.so dirsort.so expand_msdfs.so extd_audit.so fake_perms.so fileid.so fruit.so full_audit.so glusterfs_fuse.so gpfs.so hash.so ildap.so ldbsamba_extensions.so libCHARSET3-samba4.so libLIBWBCLIENT-OLD-samba4.so libMESSAGING-SEND-samba4.so libMESSAGING-samba4.so libaddns-samba4.so libads-samba4.so libasn1util-samba4.so libauth-samba4.so libauth-unix-token-samba4.so libauth4-samba4.so libauthkrb5-samba4.so libcli-cldap-samba4.so libcli-ldap-common-samba4.so libcli-ldap-samba4.so libcli-nbt-samba4.so libcli-smb-common-samba4.so libcli-spoolss-samba4.so libcliauth-samba4.so libclidns-samba4.so libcluster-samba4.so libcmdline-contexts-samba4.so libcmdline-credentials-samba4.so libcommon-auth-samba4.so libdbwrap-samba4.so libdcerpc-binding.so.0 libdcerpc-samba-samba4.so libdcerpc-samba4.so libdcerpc-samr.so.0 libdcerpc.so.0 libdsdb-module-samba4.so libevents-samba4.so libflag-mapping-samba4.so libgenrand-samba4.so libgensec-samba4.so libgpext-samba4.so libgpo-samba4.so libgse-samba4.so libhttp-samba4.so libidmap-samba4.so libinterfaces-samba4.so libiov-buf-samba4.so libkrb5samba-samba4.so libldbsamba-samba4.so liblibcli-lsa3-samba4.so liblibcli-netlogon3-samba4.so liblibsmb-samba4.so libmessages-dgm-samba4.so libmessages-util-samba4.so libmscat-samba4.so libmsghdr-samba4.so libmsrpc3-samba4.so libndr-krb5pac.so.0 libndr-nbt.so.0 libndr-samba-samba4.so libndr-samba4.so libndr-standard.so.0 libndr.so.0 libnet-keytab-samba4.so libnetapi.so.0 libnetif-samba4.so libnpa-tstream-samba4.so libnss-info-samba4.so libnss_winbind.so.2 libnss_wins.so.2 libpopt-samba3-cmdline-samba4.so libpopt-samba3-samba4.so libposix-eadb-samba4.so libprinter-driver-samba4.so libprinting-migrate-samba4.so libregistry-samba4.so libreplace-samba4.so libsamba-cluster-support-samba4.so libsamba-credentials.so.0 libsamba-debug-samba4.so libsamba-errors.so.1 libsamba-hostconfig.so.0 libsamba-modules-samba4.so libsamba-passdb.so.0 libsamba-security-samba4.so libsamba-sockets-samba4.so libsamba-util.so.0 libsamba3-util-samba4.so libsamdb-common-samba4.so libsamdb.so.0 libsecrets3-samba4.so libserver-id-db-samba4.so libserver-role-samba4.so libshares-samba4.so libsmb-transport-samba4.so libsmbclient-raw-samba4.so libsmbclient.so.0 libsmbconf.so.0 libsmbd-base-samba4.so libsmbd-conn-samba4.so libsmbd-shim-samba4.so libsmbldap.so.2 libsmbldaphelper-samba4.so libsmbpasswdparser-samba4.so libsocket-blocking-samba4.so libsys-rw-samba4.so libtalloc-report-samba4.so libtdb-wrap-samba4.so libtevent-util.so.0 libtime-basic-samba4.so libtorture-samba4.so libtrusts-util-samba4.so libutil-cmdline-samba4.so libutil-reg-samba4.so libutil-setid-samba4.so libutil-tdb-samba4.so libwbclient.so.0 libwinbind-client-samba4.so libxattr-tdb-samba4.so linux_xfs_sgid.so media_harmony.so netatalk.so offline.so pam_winbind.so preopen.so readahead.so readonly.so recycle.so rid.so script.so shadow_copy.so shadow_copy2.so shell_snap.so snapper.so streams_depot.so streams_xattr.so syncops.so tdb2.so time_audit.so unityed_media.so virusfilter.so winbind_krb5_localauth.so winbind_krb5_locator.so worm.so xattr_tdb.so
 RDEPEND: >=app-arch/libarchive-3.1.2 dev-lang/perl:0/5.30= dev-libs/libaio dev-libs/libbsd dev-libs/libgcrypt:0 dev-libs/iniparser:0 dev-libs/popt dev-python/subunit[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] >=dev-util/cmocka-1.1.1 >=net-libs/gnutls-3.2.0 net-libs/libnsl:0/2= sys-apps/attr >=sys-libs/ldb-2.0.8[ldap(+),python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] <sys-libs/ldb-2.2.0[ldap(+),python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] sys-libs/libcap sys-libs/ncurses:0/6= sys-libs/readline:0/8= >=sys-libs/talloc-2.2.0[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] >=sys-libs/tdb-1.4.2[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] >=sys-libs/tevent-0.10.0[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] sys-libs/zlib virtual/libiconv sys-libs/pam virtual/acl net-print/cups net-nds/openldap >=app-crypt/mit-krb5-1.15.1 net-fs/cifs-utils !dev-perl/Parse-Yapp
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libacl.so.1 libarchive.so.13 libbsd.so.0 libc.so.6 libcap.so.2 libcom_err.so.2 libcups.so.2 libdbus-1.so.3 libdl.so.2 libform.so.6 libgnutls.so.30 libgssapi_krb5.so.2 libk5crypto.so.3 libkrb5.so.3 liblber-2.4.so.2 libldap-2.4.so.2 libldb.so.2 libncurses.so.6 libnsl.so.2 libpam.so.0 libpanel.so.6 libpopt.so.0 libpthread.so.0 libreadline.so.8 libresolv.so.2 libtalloc.so.2 libtasn1.so.6 libtdb.so.1 libtevent.so.0 libtinfo.so.6 libz.so.1
 RESTRICT: test
+SHA1: 00a94fe0297be710a7ec7165246d74846fa6d3ac
 SIZE: 7926806
 USE: acl arm64 client cups elibc_glibc kernel_linux ldap pam python_single_target_python3_6 python_targets_python3_6 python_targets_python3_7 system-mitkrb5 userland_GNU
 MTIME: 1581126739
@@ -5409,7 +5398,9 @@ EAPI: 7
 IUSE: ipv6 java gnome ldap pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: 701f0649a7096b98ee18a9b246d689a5
 PDEPEND: || ( net-analyzer/openbsd-netcat net-analyzer/netcat ) net-analyzer/net-snmp net-analyzer/scapy net-analyzer/tcpdump net-analyzer/tcptraceroute net-analyzer/testssl net-analyzer/traceroute net-analyzer/wireshark net-misc/whatmask net-analyzer/thc-ipv6 net-analyzer/ipv6toolkit net-nds/jxplorer net-analyzer/arpwatch net-analyzer/chaosreader net-analyzer/cloudshark net-analyzer/dnsa net-analyzer/dnstracer net-analyzer/etherape net-analyzer/ftester net-analyzer/gnome-nettool net-analyzer/mbrowse net-analyzer/mtr net-analyzer/netdiscover net-analyzer/ngrep net-analyzer/snmpenum net-analyzer/snort net-analyzer/sslscan net-analyzer/sslyze net-analyzer/tcpreplay net-analyzer/thcrut net-misc/socat
+SHA1: 7daa44471319840171d027fba447cb70aca04237
 SIZE: 9719
 USE: arm64 elibc_glibc gnome ipv6 java kernel_linux ldap pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5422,7 +5413,9 @@ EAPI: 7
 IUSE: ipv6 java gnome ldap pentoo-extra pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: e3ce567c19dabc2539f43bdf65619547
 PDEPEND: || ( net-analyzer/openbsd-netcat net-analyzer/netcat ) net-analyzer/scapy net-analyzer/tcpdump net-analyzer/tcptraceroute net-analyzer/testssl net-analyzer/traceroute net-analyzer/wireshark net-misc/whatmask
+SHA1: 3e52cdb94924f7fd059f8ce2d23b3ebb7368f9b7
 SIZE: 10599
 USE: arm64 elibc_glibc ipv6 kernel_linux ldap userland_GNU
 MTIME: 1582392789
@@ -5436,7 +5429,9 @@ EAPI: 6
 IUSE: pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: 77196e2823396b1d03507615d70a2971
 PDEPEND: app-fuzz/bss net-wireless/bt-audit net-wireless/btscanner net-wireless/crackle net-wireless/blue_hydra net-wireless/blue_sonar || ( net-wireless/kismet-ubertooth >net-wireless/kismet-2018.0.0 ) net-wireless/ubertooth >=net-wireless/blueman-1.23_p20140717
+SHA1: 99c956c4cd026958938300ff5daea374b2cd5a10
 SIZE: 8591
 USE: arm64 elibc_glibc kernel_linux pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5449,7 +5444,9 @@ EAPI: 6
 IUSE: pentoo-extra pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: 1112a9702529b6cc97840e6e0a55f342
 PDEPEND: net-wireless/blue_hydra net-wireless/blue_sonar || ( net-wireless/kismet-ubertooth >net-wireless/kismet-2018.0.0 ) net-wireless/ubertooth >=net-wireless/blueman-1.23_p20140717
+SHA1: fceb6a96e27c69c0e0366d647a0bca73bb689b81
 SIZE: 8585
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5462,7 +5459,9 @@ EAPI: 6
 IUSE: cuda opencl +dict video_cards_fglrx video_cards_nvidia livecd-stage1 pentoo-extra pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: 453c6ff72ce30e14964c13b672302247
 PDEPEND: app-crypt/johntheripper-jumbo net-analyzer/hydra net-analyzer/medusa app-crypt/chntpw
+SHA1: f8528dad800918db2a975bdbecade1acb18bee76
 SIZE: 9249
 USE: arm64 dict elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5476,7 +5475,9 @@ EAPI: 6
 IUSE: pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: e3383ebef1d30ac00e065ec42700cee1
 PDEPEND: dev-db/sqlmap dev-db/sqlitebrowser net-analyzer/sqlninja dev-db/mssqlscan
+SHA1: 24d85de347577ab5d292a98eef19438a6638e301
 SIZE: 8105
 USE: arm64 elibc_glibc kernel_linux pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5490,7 +5491,9 @@ EAPI: 6
 IUSE: X cdr cups gtk2 enlightenment hardened kde livecd-stage1 mate pentoo pentoo-full pulseaudio samba +thunar +vnc +xfce
 KEYWORDS: amd64 arm x86
 LICENSE: GPL-3
+MD5: 4d0d07611a602fe92f13616a78f55097
 PDEPEND: xfce-base/xfce4-meta || ( gnome-extra/nm-applet net-misc/wicd net-wireless/wifi-radar ) app-editors/leafpad app-text/evince app-text/mupdf media-gfx/geeqie sys-apps/gnome-disk-utility x11-terms/xfce4-terminal x11-themes/tango-icon-theme xfce-base/thunar xfce-extra/xfce4-battery-plugin xfce-extra/thunar-archive-plugin xfce-extra/thunar-vcs-plugin xfce-extra/thunar-volman xfce-extra/tumbler xfce-extra/xfce4-notifyd xfce-extra/xfce4-power-manager xfce-extra/xfce4-screenshooter xfce-extra/xfce4-xkb-plugin
+SHA1: 1679c1a0611f2d1bfcf1094dc37f665e90444576
 SIZE: 1231640
 USE: arm64 elibc_glibc kernel_linux thunar userland_GNU vnc xfce
 MTIME: 1582392789
@@ -5505,7 +5508,9 @@ EAPI: 6
 IUSE: java pentoo-full
 KEYWORDS: ~amd64 ~x86
 LICENSE: GPL-3
+MD5: 7f169117af2f5649802fac7976778c33
 PDEPEND: net-analyzer/metasploit app-exploits/webshells app-exploits/deathstar app-exploits/empire net-analyzer/crackmapexec net-analyzer/responder app-exploits/routersploit app-exploits/weevely app-forensics/make-pdf net-analyzer/davtest net-analyzer/yersinia www-apps/beef || ( net-analyzer/armitage net-analyzer/armitage-bin ) !app-exploits/shellstorm
+SHA1: bfa2ee79268136be7baed7aa685fa4f2aed3d77d
 SIZE: 9099
 USE: arm64 elibc_glibc java kernel_linux pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5518,7 +5523,9 @@ EAPI: 7
 IUSE: pentoo-full
 KEYWORDS: amd64 ~arm x86
 LICENSE: GPL-3
+MD5: a8ca0677fe3928bf8b30777b399b208c
 PDEPEND: net-analyzer/whatweb net-analyzer/wafw00f net-analyzer/amass
+SHA1: fb11e1919482f2a47ae4fc95cbf4e16481af2f58
 SIZE: 9687
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5532,7 +5539,9 @@ EAPI: 6
 IUSE: pentoo-full
 KEYWORDS: ~amd64 ~x86
 LICENSE: GPL-3
+MD5: c18bcc63b50531c78246f790196973ea
 PDEPEND: app-admin/testdisk app-forensics/inception app-forensics/sleuthkit app-forensics/volatility sys-fs/ddrescue app-crypt/xor-analyze app-forensics/cmospwd app-forensics/foremost app-forensics/galleta app-forensics/libvshadow app-forensics/make-pdf app-forensics/memdump app-forensics/origami-pdf app-forensics/pasco app-forensics/pdf-parser app-forensics/pdfid app-forensics/rdd app-misc/hivex sys-apps/dcfldd sys-block/partimage sys-fs/dd-rescue
+SHA1: 154a7409a2041bc0bb4c93a2cb747eaf36ea4fce
 SIZE: 9127
 USE: arm64 elibc_glibc kernel_linux pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5545,7 +5554,9 @@ EAPI: 7
 IUSE: pentoo-full
 KEYWORDS: ~amd64 ~x86
 LICENSE: GPL-3
+MD5: bf19bc6958a43428a9539805d7b1cb90
 PDEPEND: sys-fs/extundelete app-forensics/sleuthkit app-forensics/volatility sys-fs/ddrescue
+SHA1: fa47be0d0496df0715a51c1dcf0f4938eb844453
 SIZE: 9954
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5559,7 +5570,9 @@ EAPI: 6
 IUSE: pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: bdacd4781526ca04ddc741d15e3f0d08
 PDEPEND: net-analyzer/hping net-analyzer/macchanger net-analyzer/fragroute net-analyzer/gspoof net-analyzer/hyenae net-analyzer/isic net-analyzer/netwag net-analyzer/packit net-analyzer/rain net-misc/ipsorcery
+SHA1: 39e3353c804d48c01ebd6db89b7e8e25e4f5c12c
 SIZE: 8428
 USE: arm64 elibc_glibc kernel_linux pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5573,7 +5586,9 @@ EAPI: 6
 IUSE: pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: 16f14fc6cc07f18010526fd38b69793a
 PDEPEND: net-analyzer/wfuzz net-analyzer/gobuster app-fuzz/bed app-fuzz/fuzzdb app-fuzz/fuzzer-server app-fuzz/http-fuzz app-fuzz/slowhttptest app-fuzz/smtp-fuzz
+SHA1: 0176e004f71f3b52697929ed144da7a2dc721756
 SIZE: 8304
 USE: arm64 elibc_glibc kernel_linux pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5586,7 +5601,9 @@ CPV: pentoo/pentoo-installer-99999999
 DEFINED_PHASES: install unpack
 EAPI: 7
 LICENSE: GPL-3
+MD5: 89a98871cd6f62487fcabb0ecdaa8dce
 PDEPEND: dev-util/dialog sys-apps/gptfdisk sys-apps/util-linux sys-block/parted sys-boot/efibootmgr sys-boot/grub:2[multislot(-),grub_platforms_efi-32,grub_platforms_efi-64] sys-boot/os-prober sys-boot/shim sys-boot/mokutil app-crypt/pinentry[gtk,ncurses] sys-fs/squashfs-tools x11-misc/wmctrl net-misc/rsync app-misc/jq sys-fs/growpart
+SHA1: 49a3f1e4271e925892e5b2fd9174b05381632327
 SIZE: 56179
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5600,7 +5617,9 @@ EAPI: 6
 IUSE: +accessibility +atm gtk java +office X pentoo-full
 KEYWORDS: amd64 x86
 LICENSE: GPL-3
+MD5: 45fe27efbae4884b4508c6f5e5f5838f
 PDEPEND: app-arch/p7zip net-dns/bind-tools net-misc/curl net-misc/openssh net-misc/stunnel net-misc/telnet-bsd app-misc/wipe net-misc/whois app-accessibility/espeakup app-accessibility/brltty || ( app-office/libreoffice app-office/libreoffice-bin ) media-video/gtk-recordmydesktop app-editors/gedit app-editors/ghex app-editors/sublime-text media-sound/alsamixergui media-sound/audacious net-ftp/gproftpd net-im/jitsi-bin net-im/pidgin sys-block/gparted net-misc/remmina[rdp] net-irc/hexchat || ( mail-client/thunderbird-bin mail-client/thunderbird ) app-misc/mc sys-boot/unetbootin net-dialup/linux-atm app-editors/hexedit app-text/dos2unix app-text/uudeview app-text/wgetpaste media-gfx/fbgrab media-gfx/scrot media-sound/sox media-video/vlc net-dialup/minicom net-dns/dnsmasq net-firewall/firehol net-fs/nfs-utils net-ftp/ftp net-ftp/oftpd net-ftp/tftp-hpa net-irc/irssi net-misc/axel net-misc/ifenslave net-misc/iperf net-misc/iputils net-misc/netkit-fingerd net-misc/netkit-rsh net-misc/netsed net-misc/ntp net-vpn/openvpn net-misc/portspoof net-misc/tcpick net-vpn/vpnc net-misc/wlan2eth sys-power/powertop www-client/links www-client/lynx www-servers/lighttpd
+SHA1: c395ad0234ccd077885bab29fb423935f4ecebe6
 SIZE: 11134
 USE: X accessibility arm64 atm elibc_glibc gtk java kernel_linux office pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5613,7 +5632,9 @@ EAPI: 7
 IUSE: +accessibility +atm gtk java +office X pentoo-extra pentoo-full
 KEYWORDS: amd64 x86
 LICENSE: GPL-3
+MD5: 0d3d43357dfe7ae965e1a8c01f4c35a4
 PDEPEND: app-arch/p7zip app-text/dos2unix app-text/wgetpaste net-dns/bind-tools net-misc/curl net-misc/openssh net-misc/stunnel net-misc/telnet-bsd app-misc/wipe net-misc/whois app-accessibility/espeakup app-accessibility/brltty || ( app-office/libreoffice app-office/libreoffice-bin )
+SHA1: 0774f04725ea0f2eea5eff5b9ccb8a30e3f29d2d
 SIZE: 11572
 USE: X accessibility arm64 atm elibc_glibc gtk kernel_linux office userland_GNU
 MTIME: 1582392789
@@ -5627,7 +5648,9 @@ EAPI: 5
 IUSE: pentoo-full wireless
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: 505f2a58d09eaea49387f052df0814dd
 PDEPEND: net-analyzer/ettercap net-misc/bridge-utils net-analyzer/bettercap net-analyzer/sslstrip net-analyzer/sslsniff
+SHA1: d6a66e78c213f5a8f3cc1b8d7fe3c36146ecf0b1
 SIZE: 6758
 USE: arm64 elibc_glibc kernel_linux pentoo-full userland_GNU wireless
 MTIME: 1582392789
@@ -5641,7 +5664,9 @@ EAPI: 6
 IUSE: +android +ios pentoo-full
 KEYWORDS: amd64 arm x86
 LICENSE: GPL-3
+MD5: 05498ff68c935d6d8baf07dbedbf05f8
 PDEPEND: dev-util/frida-tools dev-util/objection dev-util/appmon dev-util/apktool dev-util/dex2jar dev-util/android-tools app-misc/gplaycli dev-util/android-sdk-update-manager dev-util/androguard
+SHA1: 070c63aed49af7c18d054140a57fd626bf044019
 SIZE: 8911
 USE: android arm64 elibc_glibc kernel_linux pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5653,7 +5678,9 @@ CPV: pentoo/pentoo-nfc-2015.3
 DEFINED_PHASES: -
 EAPI: 5
 KEYWORDS: amd64 arm x86
+MD5: bcff8f6fa7b91273a80ea910cc167aa6
 PDEPEND: net-wireless/mfoc net-wireless/rfidler
+SHA1: f6ab544febdd10fe8ffa3a22880a4bc5a50e0e20
 SIZE: 6395
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5664,7 +5691,9 @@ CPV: pentoo/pentoo-nfc-2019.2
 DEFINED_PHASES: -
 EAPI: 5
 KEYWORDS: amd64 arm x86
+MD5: 42971005101d9fad5ea93c5141b231c8
 PDEPEND: net-wireless/mfoc net-wireless/rfidler
+SHA1: fbb00265291803b29c71f5f1253e74fc65bb3dd6
 SIZE: 6412
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5678,7 +5707,9 @@ EAPI: 7
 IUSE: java pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: BSD
+MD5: 17e7db0c2937f80bafbd5994c0512725
 PDEPEND: net-proxy/burpsuite net-proxy/zaproxy net-dns/dnscrypt-proxy net-misc/proxychains net-proxy/3proxy net-proxy/mitmproxy net-proxy/privoxy net-proxy/ratproxy net-proxy/redsocks net-proxy/tsocks net-vpn/iodine net-vpn/tor
+SHA1: 589c7d288b04b9e84f41b31adf610c01caf42ae8
 SIZE: 9617
 USE: arm64 elibc_glibc java kernel_linux pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5690,7 +5721,9 @@ DEFINED_PHASES: -
 EAPI: 6
 IUSE: +bladerf +hackrf +limesdr pentoo-full +plutosdr
 KEYWORDS: ~amd64 ~arm ~x86
+MD5: ca57997ce2c2470c948e9b717960806a
 PDEPEND: net-wireless/gnuradio net-wireless/gqrx net-wireless/gr-osmosdr net-wireless/rfcat net-wireless/rtl-sdr net-wireless/hackrf-tools net-wireless/bladerf net-wireless/limesuite net-wireless/gr-iio
+SHA1: e4ab74cf0c5cd7146282a2599d3abfbb4d78cc57
 SIZE: 9553
 USE: arm64 bladerf elibc_glibc hackrf kernel_linux limesdr plutosdr userland_GNU
 MTIME: 1582392789
@@ -5704,7 +5737,9 @@ EAPI: 7
 IUSE: hardened pentoo-full
 KEYWORDS: amd64 arm x86
 LICENSE: GPL-3
+MD5: 931bb32c7151691591139b287e4b9e33
 PDEPEND: sys-devel/gdb dev-util/redasm dev-util/jd-gui dev-util/jadx-bin dev-util/ghidra sys-devel/prelink dev-lang/nasm dev-util/edb-debugger dev-util/ltrace dev-util/strace
+SHA1: 13e8c47c9edc0e9a0d8f597e7f3c7d3a4ea90bef
 SIZE: 9676
 USE: arm64 elibc_glibc kernel_linux pentoo-full userland_GNU
 MTIME: 1582392789
@@ -5717,7 +5752,9 @@ EAPI: 7
 IUSE: hardened pentoo-full X
 KEYWORDS: amd64 arm x86
 LICENSE: GPL-3
+MD5: 2a3e47d3d296f492c957774216b56235
 PDEPEND: sys-devel/gdb dev-util/redasm dev-util/jadx-bin app-editors/wxhexeditor
+SHA1: 8ba427d5199679bd32f3a7b82517e1b137757280
 SIZE: 9792
 USE: X arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5731,8 +5768,10 @@ EAPI: 7
 IUSE: +2fa livecd livecd-stage1 pax_kernel pentoo-extra pentoo-full qemu windows-compat +X video_cards_nvidia video_cards_virtualbox video_cards_vmware
 KEYWORDS: amd64 arm x86
 LICENSE: GPL-3
+MD5: b4ca9ac97d6bfe2c37be9e5fc2e65a70
 PDEPEND: !pentoo/pentoo-livecd !app-misc/livecd-tools sys-apps/fwupd app-admin/sudo app-crypt/openpgp-keys-gentoo-release app-shells/bash-completion app-portage/portage-utils || ( app-admin/syslog-ng virtual/logger ) || ( sys-process/fcron virtual/cron ) || ( sys-kernel/genkernel sys-kernel/genkernel-next ) || ( sys-boot/grub:2 sys-boot/systemd-boot ) sys-boot/os-prober sys-boot/syslinux sys-boot/efibootmgr app-crypt/yubikey-manager-qt sys-auth/yubikey-personalization-gui sys-auth/pam_yubico app-portage/cpuid2cpuflags app-portage/gentoolkit app-portage/eix sys-auth/nss-mdns sys-apps/pciutils sys-apps/usbutils sys-apps/mlocate sys-apps/usb_modeswitch sys-firmware/intel-microcode sys-kernel/linux-firmware sys-power/acpid[pentoo] sys-power/thermald sys-process/htop sys-apps/openrc app-crypt/gnupg sys-fs/cryptsetup sys-process/lsof sys-kernel/pentoo-sources app-portage/mirrorselect app-editors/nano app-editors/vim app-misc/screen app-portage/smart-live-rebuild media-sound/alsa-utils net-dialup/ppp net-firewall/iptables net-firewall/nftables net-misc/dhcp net-misc/dhcpcd net-misc/mosh net-misc/vconfig net-wireless/bluez net-wireless/wireless-tools net-wireless/wpa_supplicant net-wireless/iw sys-apps/ethtool sys-apps/iproute2 sys-apps/sysvinit sys-devel/gettext sys-apps/gptfdisk
 RDEPEND: app-portage/porthole
+SHA1: 3c931410cbe7d692afadbd4da386c3c46b77a667
 SIZE: 882464
 USE: 2fa X arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5745,7 +5784,9 @@ EAPI: 5
 IUSE: pentoo-full
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: 3f6a67824b617dba6b232723db6f90ec
 PDEPEND: net-analyzer/sipvicious net-misc/sipp
+SHA1: 9b1fb743acada9fb548e0e94b1f936aecd83cefe
 SIZE: 6850
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5759,7 +5800,9 @@ EAPI: 6
 IUSE: cuda gps +drivers livecd-stage1 pentoo-full opencl +wpe
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: fc07715e428455de8601fc0084595a4a
 PDEPEND: || ( net-wireless/hostapd[wpe] net-wireless/hostapd[karma_cli] ) net-wireless/aircrack-ng net-dialup/freeradius net-wireless/kismet >=sys-apps/util-linux-2.31_rc1 net-wireless/crda net-wireless/mdk net-wireless/wifite net-wireless/rtl8812au_aircrack-ng || ( net-wireless/reaver-wps-fork-t6x net-wireless/reaver ) app-crypt/asleap net-wireless/airsnort net-wireless/bully net-wireless/cowpatty net-wireless/kismetdb net-wireless/kismetmobiledashboard net-wireless/spectools net-wireless/wepattack net-wireless/n4p net-wireless/hcxtools net-wireless/hcxdumptool net-wireless/hcxtools
+SHA1: 60c3fe1ea3c14ef31a28781b9e64f5970c2c94dd
 SIZE: 9725
 USE: arm64 drivers elibc_glibc kernel_linux pentoo-full userland_GNU wpe
 MTIME: 1582392789
@@ -5772,7 +5815,9 @@ EAPI: 7
 IUSE: cuda gps +drivers livecd-stage1 pentoo-extra pentoo-full opencl +wpe
 KEYWORDS: ~amd64 ~arm ~x86
 LICENSE: GPL-3
+MD5: e7d3c1f2834b6c51ea7370d91bbff773
 PDEPEND: || ( net-wireless/hostapd[wpe] net-wireless/hostapd[karma_cli] ) net-wireless/aircrack-ng net-dialup/freeradius net-wireless/kismet >=sys-apps/util-linux-2.31_rc1 net-wireless/crda net-wireless/mdk net-wireless/wifite net-wireless/rtl8812au_aircrack-ng || ( net-wireless/reaver-wps-fork-t6x net-wireless/reaver )
+SHA1: 0671d37f414804ad66dccb74f58314c86d108676
 SIZE: 10722
 USE: arm64 drivers elibc_glibc kernel_linux userland_GNU wpe
 MTIME: 1582392789
@@ -5784,8 +5829,10 @@ DEFINED_PHASES: install
 EAPI: 6
 IUSE: opencl visuals
 KEYWORDS: amd64
+MD5: eafbd3b56e8c3ad8a8e71ae5066567c1
 PDEPEND: dev-python/bottle net-wireless/gr-osmosdr media-radio/wsjtx app-admin/sudo app-editors/nano app-editors/vim app-misc/screen app-misc/rtlamr app-pda/ifuse app-pda/usbmuxd app-portage/gentoolkit app-portage/smart-live-rebuild app-text/wgetpaste dev-ruby/pry dev-ruby/rb-inotify dev-vcs/git sys-kernel/pentoo-sources sys-apps/rng-tools >=sys-apps/util-linux-2.31_rc1 sys-power/thermald sys-firmware/intel-microcode net-misc/dhcpcd net-wireless/rfcat net-wireless/rtl_433 net-wireless/mousejack net-wireless/rtl8812au_aircrack-ng sys-boot/grub:2 sys-fs/btrfs-progs sys-process/iotop sys-process/htop sys-process/usbtop sys-kernel/genkernel net-analyzer/tcpdump net-analyzer/termshark net-analyzer/nmap net-analyzer/netcat net-dns/bind-tools net-misc/autossh net-misc/ntpsec net-wireless/wpa_supplicant net-wireless/aircrack-ng net-wireless/kismet net-wireless/kismetdb sci-geosciences/gpsd net-ftp/tftp-hpa sys-apps/watchdog sys-devel/gdb virtual/cron || ( net-misc/iputils[arping(+)] net-analyzer/arping )
 RDEPEND: !pentoo/pentoo-system
+SHA1: 6662af8452b3523a9bbb067425fd07df1f503893
 SIZE: 65007
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392789
@@ -5829,7 +5876,9 @@ CPV: sys-apps/cookbug-0.4
 DEFINED_PHASES: install unpack
 KEYWORDS: ~arm ~amd64 ~x86
 LICENSE: GPL-2
+MD5: e5af8098204733f665a8f68f91337cd6
 RDEPEND: sys-apps/coreutils sys-apps/pciutils sys-apps/usbutils virtual/modutils
+SHA1: 72f754590ff10e31c4965b17df8f8001174ae2d1
 SIZE: 8266
 USE: arm64 cpu_flags_arm_edsp cpu_flags_arm_neon cpu_flags_arm_thumb cpu_flags_arm_thumb2 cpu_flags_arm_v4 cpu_flags_arm_v5 cpu_flags_arm_v6 cpu_flags_arm_v7 cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582607459
@@ -5859,7 +5908,9 @@ EAPI: 6
 IUSE: python_targets_python2_7 python_targets_python3_6
 KEYWORDS: ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~x86
 LICENSE: GPL-2
+MD5: 2593788b7341b3957f753216627b3248
 RDEPEND: >=app-misc/pax-utils-0.7 >=app-portage/portage-utils-0.81 dev-db/sqlite:3[soundex(+)] net-misc/rsync sys-apps/diffutils sys-apps/sandbox >=sys-apps/portage-2.1.9[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-)] sys-devel/gettext >=dev-lang/python-2.7.5-r2:2.7[sqlite] dev-lang/python:3.6[sqlite] >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-)]
+SHA1: f32140ab702a2c7c1d63a9b051fba7e2d140b8bc
 SIZE: 2676626
 USE: arm64 elibc_glibc kernel_linux python_targets_python2_7 python_targets_python3_6 userland_GNU
 MTIME: 1582607414
@@ -5872,7 +5923,9 @@ DEPEND: >=app-misc/pax-utils-0.7 dev-db/sqlite net-misc/rsync sys-apps/diffutils
 EAPI: 6
 IUSE: python_targets_python2_7 python_targets_python3_6 python_single_target_python2_7 python_single_target_python3_6
 LICENSE: GPL-2
+MD5: dcf13b9545e70ba2892ffe233ea724f9
 RDEPEND: >=app-misc/pax-utils-0.7 dev-db/sqlite net-misc/rsync sys-apps/diffutils sys-apps/sandbox >=sys-apps/portage-2.1.9[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_5(-),-python_single_target_python3_7(-),python_single_target_python3_6(+)] sys-devel/gettext dev-lang/python:3.6[sqlite] >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_5(-),-python_single_target_python3_7(-),python_single_target_python3_6(+)]
+SHA1: 59697e8329b92ce49388cf4d28beaeb0e52be442
 SIZE: 1407014
 USE: arm64 elibc_glibc kernel_linux python_single_target_python3_6 python_targets_python2_7 python_targets_python3_6 userland_GNU
 MTIME: 1582607414
@@ -5885,7 +5938,9 @@ DEPEND: app-text/asciidoc >=dev-vcs/git-1.8.2.1[curl]
 EAPI: 6
 IUSE: +matter python_targets_python2_7 python_targets_python3_6 python_single_target_python2_7 python_single_target_python3_6
 LICENSE: GPL-2
+MD5: 09cc5f975676d3394fd457285445392a
 RDEPEND: sys-apps/entropy[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_5(-),-python_single_target_python3_7(-),python_single_target_python3_6(+)] app-admin/matter[entropy] dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_5(-),-python_single_target_python3_7(-),python_single_target_python3_6(+)]
+SHA1: 6222cd968259cae098c6ea71bddb41867413282b
 SIZE: 257254
 USE: arm64 elibc_glibc kernel_linux matter python_single_target_python3_6 python_targets_python2_7 python_targets_python3_6 userland_GNU
 MTIME: 1582607414
@@ -5907,22 +5962,22 @@ MTIME: 1580035953
 REPO: gentoo
 
 BDEPEND: >=app-portage/elt-patches-20170815
-BUILD_TIME: 1582613183
+BUILD_TIME: 1582617925
 CPV: sys-apps/file-5.38
 DEFINED_PHASES: compile configure install prepare test
-DEPEND: app-arch/bzip2 app-arch/xz-utils >=dev-lang/python-2.7.5-r2:2.7 dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/setuptools[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] >=sys-libs/zlib-1.2.8-r1
+DEPEND: app-arch/bzip2 >=dev-lang/python-2.7.5-r2:2.7 dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/setuptools[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] >=sys-libs/zlib-1.2.8-r1
 EAPI: 7
 IUSE: bzip2 lzma python static-libs zlib python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_riscv_lp64d abi_riscv_lp64 abi_s390_32 abi_s390_64
 KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sh ~sparc ~x86 ~ppc-aix ~x64-cygwin ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
 LICENSE: BSD-2
-MD5: d691853e3776f2487f888411b4626819
+MD5: ad63077ae0ae4f99aa91205c64666732
 PROVIDES: arm_64: libmagic.so.1
-RDEPEND: app-arch/bzip2 app-arch/xz-utils >=dev-lang/python-2.7.5-r2:2.7 dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/setuptools[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] >=sys-libs/zlib-1.2.8-r1 !dev-python/python-magic
-REQUIRES: arm_64: ld-linux-aarch64.so.1 libbz2.so.1.0 libc.so.6 liblzma.so.5 libz.so.1
-SHA1: 6c7f18135cbc651eff9bb78eb9e836057592583e
-SIZE: 693831
-USE: arm64 bzip2 elibc_glibc kernel_linux lzma python python_targets_python2_7 python_targets_python3_6 userland_GNU zlib
-MTIME: 1582613219
+RDEPEND: app-arch/bzip2 >=dev-lang/python-2.7.5-r2:2.7 dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/setuptools[python_targets_python2_7(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] >=sys-libs/zlib-1.2.8-r1 !dev-python/python-magic
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libbz2.so.1.0 libc.so.6 libz.so.1
+SHA1: dd8aea73b268d91bb3b3bc3c425eeeb76e13916e
+SIZE: 694335
+USE: arm64 bzip2 elibc_glibc kernel_linux python python_targets_python2_7 python_targets_python3_6 userland_GNU zlib
+MTIME: 1582617984
 REPO: gentoo
 
 BUILD_TIME: 1581079712
@@ -6291,21 +6346,6 @@ MTIME: 1578334548
 REPO: gentoo
 
 BUILD_ID: 1
-BUILD_TIME: 1528423232
-CPV: sys-boot/efibootmgr-16
-DEFINED_PHASES: compile configure prepare
-DEPEND: sys-apps/pciutils >=sys-libs/efivar-25:0/1=
-EAPI: 6
-KEYWORDS: ~amd64 ~arm64 ~ia64 ~x86
-LICENSE: GPL-2
-RDEPEND: sys-apps/pciutils >=sys-libs/efivar-25:0/1=
-REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libefiboot.so.1 libefivar.so.1 libpopt.so.0
-SIZE: 50226
-USE: arm64 elibc_glibc kernel_linux userland_GNU
-MTIME: 1532903619
-REPO: gentoo
-
-BUILD_ID: 1
 BUILD_TIME: 1581743133
 CPV: sys-boot/efibootmgr-16
 DEFINED_PHASES: compile configure prepare
@@ -6313,9 +6353,11 @@ DEPEND: sys-apps/pciutils >=sys-libs/efivar-25:0/1=
 EAPI: 6
 KEYWORDS: amd64 ~arm ~arm64 ia64 x86
 LICENSE: GPL-2
+MD5: ef3e9ee7da09cf7c83da93a5802dbb77
 PATH: sys-boot/efibootmgr/efibootmgr-16-1.xpak
 RDEPEND: sys-apps/pciutils >=sys-libs/efivar-25:0/1=
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libefiboot.so.1 libefivar.so.1 libpopt.so.0
+SHA1: 1489d3f53bec799b4cad4f6e9ab9d44984cc52de
 SIZE: 51076
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1581962234
@@ -6329,8 +6371,10 @@ EAPI: 7
 IUSE: abi_x86_32 abi_x86_64 custom-cflags
 KEYWORDS: -* amd64 arm ~arm64 ia64 x86
 LICENSE: GPL-2+ BSD BSD-2
+MD5: 3ed08ab76c2f670ce66630fbaeed9ed9
 PATH: sys-boot/gnu-efi/gnu-efi-3.0.11-2.xpak
 RESTRICT: strip
+SHA1: cf02da3019408aed4af576e50dd9cab8caddce7a
 SIZE: 345692
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1581962234
@@ -6344,8 +6388,10 @@ EAPI: 7
 IUSE: abi_x86_32 abi_x86_64 custom-cflags
 KEYWORDS: -* amd64 arm ~arm64 ia64 x86
 LICENSE: GPL-2+ BSD BSD-2
+MD5: d349b976fd6abe5e5dd7110b502f3ac3
 PATH: sys-boot/gnu-efi/gnu-efi-3.0.11-1.xpak
 RESTRICT: strip
+SHA1: f6a596ae1bb1c131951d4187456d8ffcfb7b5cfc
 SIZE: 346732
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582392427
@@ -6359,69 +6405,12 @@ EAPI: 7
 IUSE: abi_x86_32 abi_x86_64 custom-cflags
 KEYWORDS: -* amd64 arm ~arm64 ia64 x86
 LICENSE: GPL-2+ BSD BSD-2
+MD5: 08303bd7dd19413f9a523b00aba70545
 RESTRICT: strip
+SHA1: 12a94a563d0a8049816a922b3e8f93267664d49e
 SIZE: 345680
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582393884
-REPO: gentoo
-
-BUILD_TIME: 1496406292
-CPV: sys-boot/gnu-efi-3.0.5
-DEFINED_PHASES: compile install prepare
-DEPEND: sys-apps/pciutils
-EAPI: 6
-IUSE: abi_x86_32 abi_x86_64
-KEYWORDS: -* ~amd64 ~arm ~arm64 -ia64 ~x86
-LICENSE: GPL-2
-RESTRICT: strip
-SIZE: 259700
-USE: arm64 elibc_glibc kernel_linux userland_GNU
-MTIME: 1528323973
-REPO: gentoo
-
-BUILD_TIME: 1508630818
-CPV: sys-boot/gnu-efi-3.0.6-r1
-DEFINED_PHASES: compile install prepare
-DEPEND: sys-apps/pciutils
-EAPI: 6
-IUSE: abi_x86_32 abi_x86_64 -custom-cflags
-KEYWORDS: -* ~amd64 ~arm ~arm64 -ia64 ~x86
-LICENSE: GPL-2+ BSD BSD-2
-RESTRICT: strip
-SIZE: 261644
-USE: arm64 elibc_glibc kernel_linux userland_GNU
-MTIME: 1528323968
-REPO: gentoo
-
-BUILD_ID: 1
-BUILD_TIME: 1530801328
-CPV: sys-boot/gnu-efi-3.0.6-r2
-DEFINED_PHASES: compile install prepare
-DEPEND: sys-apps/pciutils
-EAPI: 6
-IUSE: abi_x86_32 abi_x86_64 -custom-cflags
-KEYWORDS: -* ~amd64 ~arm ~arm64 ia64 ~x86
-LICENSE: GPL-2+ BSD BSD-2
-RESTRICT: strip
-SIZE: 333816
-USE: arm64 elibc_glibc kernel_linux userland_GNU
-MTIME: 1532903483
-REPO: gentoo
-
-BUILD_ID: 1
-BUILD_TIME: 1530801328
-CPV: sys-boot/gnu-efi-3.0.6-r2
-DEFINED_PHASES: compile install prepare
-DEPEND: sys-apps/pciutils
-EAPI: 6
-IUSE: abi_x86_32 abi_x86_64 -custom-cflags
-KEYWORDS: -* ~amd64 ~arm ~arm64 ia64 ~x86
-LICENSE: GPL-2+ BSD BSD-2
-PATH: sys-boot/gnu-efi/gnu-efi-3.0.6-r2-1.xpak
-RESTRICT: strip
-SIZE: 335527
-USE: arm64 elibc_glibc kernel_linux userland_GNU
-MTIME: 1530801334
 REPO: gentoo
 
 BDEPEND: app-misc/pax-utils sys-devel/flex sys-devel/bison sys-apps/help2man sys-apps/texinfo media-libs/freetype:2 virtual/pkgconfig app-arch/unzip media-libs/freetype:2 virtual/pkgconfig virtual/pkgconfig
@@ -6434,9 +6423,11 @@ EAPI: 7
 IUSE: debug device-mapper doc efiemu +fonts mount nls static sdl test +themes truetype libzfs grub_platforms_coreboot grub_platforms_efi-32 grub_platforms_efi-64 grub_platforms_emu grub_platforms_ieee1275 grub_platforms_loongson grub_platforms_multiboot grub_platforms_qemu grub_platforms_qemu-mips grub_platforms_pc grub_platforms_uboot grub_platforms_xen grub_platforms_xen-32
 KEYWORDS: ~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
 LICENSE: GPL-3 GPL-2-with-font-exception BitstreamVera
+MD5: 7bb3a83b614628f6d1f04fd40f031f4f
 RDEPEND: app-arch/xz-utils >=sys-libs/ncurses-5.2-r5:0/6= >=sys-fs/lvm2-2.02.45 sys-fs/fuse:0 media-libs/freetype:2/2= sys-boot/efibootmgr sys-boot/efibootmgr !sys-boot/grub:0 !sys-boot/grub-static sys-devel/gettext
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libdevmapper.so.1.02 libfreetype.so.6 libfuse.so.2 liblzma.so.5
 RESTRICT: strip test
+SHA1: 8f658341bf23ebd49ed65f11df973d980558399c
 SIZE: 14239647
 SLOT: 2/2.04_rc1
 USE: arm64 device-mapper efiemu elibc_glibc fonts grub_platforms_efi-32 grub_platforms_efi-64 kernel_linux mount nls themes truetype userland_GNU
@@ -6451,8 +6442,10 @@ DEPEND: dev-libs/openssl:0/1.1= sys-libs/efivar:0/1= >=app-portage/elt-patches-2
 EAPI: 6
 KEYWORDS: ~amd64 ~x86
 LICENSE: GPL-3
+MD5: 33093d87f0c86fc6bee54be6b08a1ef9
 RDEPEND: dev-libs/openssl:0/1.1= sys-libs/efivar:0/1=
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libcrypt.so.1 libcrypto.so.1.1 libefivar.so.1
+SHA1: e5648b0091873119a08e52e52dcd2f0f7536843d
 SIZE: 41141
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582393890
@@ -6465,42 +6458,13 @@ DEFINED_PHASES: compile install postinst prepare
 EAPI: 6
 KEYWORDS: amd64 x86
 LICENSE: GPL-3
+MD5: 189899a24c4335401c0d985187f3f567
 RDEPEND: sys-boot/grub:2[mount]
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6
+SHA1: 85da79d58b4dc8251da7f141a0a9a4ab6a35c637
 SIZE: 44070
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582393890
-REPO: gentoo
-
-BUILD_ID: 1
-BUILD_TIME: 1530904733
-CPV: sys-boot/plymouth-openrc-plugin-0.1.2
-DEFINED_PHASES: install postinst
-DEPEND: >=sys-apps/openrc-0.8.2-r1
-EAPI: 4
-KEYWORDS: ~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86
-LICENSE: GPL-2
-PROVIDES: arm_64: plymouth.so
-RDEPEND: >=sys-apps/openrc-0.8.2-r1 >=sys-boot/plymouth-0.8.3-r5
-REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libeinfo.so.1 librc.so.1
-SIZE: 19390
-USE: arm64 cpu_flags_arm_edsp cpu_flags_arm_neon cpu_flags_arm_thumb cpu_flags_arm_thumb2 cpu_flags_arm_v4 cpu_flags_arm_v5 cpu_flags_arm_v6 cpu_flags_arm_v7 cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 elibc_glibc kernel_linux userland_GNU
-MTIME: 1532904287
-REPO: gentoo
-
-BUILD_ID: 1
-BUILD_TIME: 1530904750
-CPV: sys-boot/raspberrypi-mkimage-0_p20120201
-DEFINED_PHASES: compile configure install prepare test unpack
-DEPEND: >=dev-lang/python-2.7.5-r2:2.7 dev-lang/python:3.4 dev-lang/python:3.5 dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_4(-),python_targets_python3_5(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-)]
-EAPI: 6
-IUSE: python_targets_python2_7 python_targets_python3_4 python_targets_python3_5 python_targets_python3_6
-KEYWORDS: ~amd64 ~arm ~x86
-LICENSE: GPL-2
-RDEPEND: >=dev-lang/python-2.7.5-r2:2.7 dev-lang/python:3.4 dev-lang/python:3.5 dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_4(-),python_targets_python3_5(-),python_targets_python3_6(-),-python_single_target_python2_7(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-)]
-SIZE: 29283
-USE: arm64 elibc_glibc kernel_linux python_targets_python2_7 python_targets_python3_4 python_targets_python3_5 python_targets_python3_6 userland_GNU
-MTIME: 1532925502
 REPO: gentoo
 
 BUILD_TIME: 1581797733
@@ -6509,7 +6473,9 @@ DEFINED_PHASES: compile install
 EAPI: 5
 KEYWORDS: -* arm64 arm
 LICENSE: Google-TOS
+MD5: 53ab8abf512a1ac8433765ca820b799f
 RESTRICT: mirror
+SHA1: 310f86ad091336f6946447fbe4b27fd44863b801
 SIZE: 414508
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582393890
@@ -6521,7 +6487,9 @@ DEFINED_PHASES: compile install
 EAPI: 5
 KEYWORDS: -* arm64 arm
 LICENSE: Google-TOS
+MD5: 0ac3e127623bd034db174cc36941eb6a
 RESTRICT: mirror
+SHA1: 3896a61ea2c013ba20180b939781bd16b6e4cdc6
 SIZE: 414603
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582393890
@@ -6542,19 +6510,6 @@ SIZE: 13919664
 USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1581866054
 REPO: genpi64
-
-BUILD_TIME: 1528113284
-CPV: sys-boot/rpi3-boot-config-1.0.1
-DEFINED_PHASES: install postinst preinst
-EAPI: 6
-IUSE: pitop
-KEYWORDS: ~arm64
-LICENSE: GPL-2
-RESTRICT: mirror
-SIZE: 10133
-USE: arm64 elibc_glibc kernel_linux userland_GNU
-MTIME: 1528113287
-REPO: rpi3
 
 BUILD_TIME: 1582366780
 CPV: sys-cluster/sanlock-3.8.0
@@ -7570,19 +7525,6 @@ USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1564217112
 REPO: gentoo
 
-BUILD_TIME: 1564420414
-CPV: virtual/emacs-26
-DEFINED_PHASES: -
-EAPI: 6
-KEYWORDS: ~alpha amd64 arm ~arm64 ~hppa ia64 ~m68k ~mips ppc ppc64 ~riscv s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
-MD5: aec32b3ba3517644f16d3e5b0a76c83c
-RDEPEND: || ( app-editors/emacs:26 >=app-editors/emacs-vcs-26.1 )
-SHA1: 98d79b7b573db9a3e53333ba4d26a96d11d52b6c
-SIZE: 7140
-USE: arm64 elibc_glibc kernel_linux userland_GNU
-MTIME: 1564420421
-REPO: gentoo
-
 BUILD_TIME: 1582581389
 CPV: virtual/emacs-26-r2
 DEFINED_PHASES: -
@@ -7885,10 +7827,12 @@ EAPI: 6
 IUSE: +suexec-caps suexec-syslog ssl debug doc gdbm ldap libressl selinux ssl static suexec threads apache2_modules_access_compat apache2_modules_actions apache2_modules_alias apache2_modules_asis apache2_modules_auth_basic apache2_modules_auth_digest apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbd apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbd apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_brotli apache2_modules_cache apache2_modules_cache_disk apache2_modules_cache_socache apache2_modules_cern_meta apache2_modules_charset_lite apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_dbd apache2_modules_deflate apache2_modules_dir apache2_modules_dumpio apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_http2 apache2_modules_ident apache2_modules_imagemap apache2_modules_include apache2_modules_info apache2_modules_lbmethod_byrequests apache2_modules_lbmethod_bytraffic apache2_modules_lbmethod_bybusyness apache2_modules_lbmethod_heartbeat apache2_modules_log_config apache2_modules_log_forensic apache2_modules_logio apache2_modules_macro apache2_modules_md apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_proxy apache2_modules_proxy_ajp apache2_modules_proxy_balancer apache2_modules_proxy_connect apache2_modules_proxy_ftp apache2_modules_proxy_html apache2_modules_proxy_http apache2_modules_proxy_scgi apache2_modules_proxy_http2 apache2_modules_proxy_fcgi apache2_modules_proxy_wstunnel apache2_modules_rewrite apache2_modules_ratelimit apache2_modules_remoteip apache2_modules_reqtimeout apache2_modules_setenvif apache2_modules_slotmem_shm apache2_modules_speling apache2_modules_socache_shmcb apache2_modules_status apache2_modules_substitute apache2_modules_unique_id apache2_modules_userdir apache2_modules_usertrack apache2_modules_unixd apache2_modules_version apache2_modules_vhost_alias apache2_modules_watchdog apache2_modules_xml2enc apache2_mpms_prefork apache2_mpms_event apache2_mpms_worker
 KEYWORDS: alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x64-macos ~x86-macos ~m68k-mint ~sparc64-solaris ~x64-solaris
 LICENSE: Apache-2.0 Apache-1.1
+MD5: ba06e07322f7ffa210cd945f9e958000
 PDEPEND: ~app-admin/apache-tools-2.4.39
 PROVIDES: arm_64: mod_actions.so mod_alias.so mod_allowmethods.so mod_asis.so mod_auth_basic.so mod_auth_digest.so mod_auth_form.so mod_authn_anon.so mod_authn_core.so mod_authn_dbd.so mod_authn_dbm.so mod_authn_file.so mod_authn_socache.so mod_authnz_ldap.so mod_authz_core.so mod_authz_dbm.so mod_authz_groupfile.so mod_authz_host.so mod_authz_owner.so mod_authz_user.so mod_autoindex.so mod_brotli.so mod_buffer.so mod_cache.so mod_cern_meta.so mod_cgi.so mod_cgid.so mod_charset_lite.so mod_dav.so mod_dav_fs.so mod_dav_lock.so mod_dbd.so mod_deflate.so mod_dir.so mod_dumpio.so mod_env.so mod_expires.so mod_ext_filter.so mod_file_cache.so mod_filter.so mod_headers.so mod_imagemap.so mod_include.so mod_info.so mod_ldap.so mod_log_config.so mod_log_debug.so mod_log_forensic.so mod_logio.so mod_macro.so mod_mime.so mod_mime_magic.so mod_negotiation.so mod_proxy.so mod_proxy_ajp.so mod_proxy_balancer.so mod_proxy_connect.so mod_proxy_express.so mod_proxy_fcgi.so mod_proxy_fdpass.so mod_proxy_ftp.so mod_proxy_html.so mod_proxy_http.so mod_proxy_uwsgi.so mod_proxy_wstunnel.so mod_ratelimit.so mod_request.so mod_rewrite.so mod_sed.so mod_session.so mod_session_cookie.so mod_session_crypto.so mod_session_dbd.so mod_setenvif.so mod_slotmem_shm.so mod_socache_dbm.so mod_socache_memcache.so mod_socache_redis.so mod_socache_shmcb.so mod_speling.so mod_ssl.so mod_status.so mod_substitute.so mod_suexec.so mod_unique_id.so mod_unixd.so mod_userdir.so mod_usertrack.so mod_version.so mod_vhost_alias.so mod_xml2enc.so
 RDEPEND: >=app-arch/brotli-0.6.0:0/1= >=dev-libs/apr-1.5.1:1/1.7= !www-apache/mod_macro dev-lang/perl =dev-libs/apr-util-1*:1/1=[gdbm,ldap] dev-libs/libpcre sys-libs/zlib app-misc/mime-types sys-libs/gdbm:0/6= =net-nds/openldap-2* >=dev-libs/openssl-1.0.2:0/1.1= !=www-servers/apache-1* virtual/tmpfiles
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libapr-1.so.0 libaprutil-1.so.0 libbrotlienc.so.1 libc.so.6 libcrypt.so.1 libcrypto.so.1.1 libdb-6.0.so libdl.so.2 libexpat.so.1 libgdbm.so.6 liblber-2.4.so.2 libldap-2.4.so.2 libpcre.so.1 libpthread.so.0 librt.so.1 libssl.so.1.1 libuuid.so.1 libxml2.so.2 libz.so.1
+SHA1: 06f192902f077ff830c014712c1c48604cdb4f74
 SIZE: 1505816
 SLOT: 2
 USE: apache2_modules_actions apache2_modules_alias apache2_modules_asis apache2_modules_auth_basic apache2_modules_auth_digest apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbd apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_brotli apache2_modules_cache apache2_modules_cern_meta apache2_modules_cgi apache2_modules_cgid apache2_modules_charset_lite apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_dbd apache2_modules_deflate apache2_modules_dir apache2_modules_dumpio apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_imagemap apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_log_forensic apache2_modules_logio apache2_modules_macro apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_proxy apache2_modules_proxy_ajp apache2_modules_proxy_balancer apache2_modules_proxy_connect apache2_modules_proxy_fcgi apache2_modules_proxy_ftp apache2_modules_proxy_html apache2_modules_proxy_http apache2_modules_proxy_wstunnel apache2_modules_ratelimit apache2_modules_rewrite apache2_modules_setenvif apache2_modules_slotmem_shm apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_substitute apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_version apache2_modules_vhost_alias apache2_modules_xml2enc apache2_mpms_prefork arm64 elibc_glibc gdbm kernel_linux ldap ssl suexec suexec-caps suexec-syslog userland_GNU
@@ -7905,9 +7849,11 @@ EAPI: 6
 IUSE: aio debug +http +http2 +http-cache +ipv6 libatomic libressl luajit +pcre pcre-jit rtmp selinux ssl threads userland_GNU vim-syntax +nginx_modules_http_access +nginx_modules_http_auth_basic +nginx_modules_http_autoindex +nginx_modules_http_browser +nginx_modules_http_charset +nginx_modules_http_empty_gif +nginx_modules_http_fastcgi +nginx_modules_http_geo +nginx_modules_http_grpc +nginx_modules_http_gzip +nginx_modules_http_limit_req +nginx_modules_http_limit_conn +nginx_modules_http_map +nginx_modules_http_memcached +nginx_modules_http_mirror +nginx_modules_http_proxy +nginx_modules_http_referer +nginx_modules_http_rewrite +nginx_modules_http_scgi +nginx_modules_http_ssi +nginx_modules_http_split_clients +nginx_modules_http_upstream_hash +nginx_modules_http_upstream_ip_hash +nginx_modules_http_upstream_keepalive +nginx_modules_http_upstream_least_conn +nginx_modules_http_upstream_zone +nginx_modules_http_userid +nginx_modules_http_uwsgi nginx_modules_http_addition nginx_modules_http_auth_request nginx_modules_http_dav nginx_modules_http_degradation nginx_modules_http_flv nginx_modules_http_geoip nginx_modules_http_gunzip nginx_modules_http_gzip_static nginx_modules_http_image_filter nginx_modules_http_mp4 nginx_modules_http_perl nginx_modules_http_random_index nginx_modules_http_realip nginx_modules_http_secure_link nginx_modules_http_slice nginx_modules_http_stub_status nginx_modules_http_sub nginx_modules_http_xslt nginx_modules_stream_access nginx_modules_stream_geo nginx_modules_stream_limit_conn nginx_modules_stream_map nginx_modules_stream_return nginx_modules_stream_split_clients nginx_modules_stream_upstream_hash nginx_modules_stream_upstream_least_conn nginx_modules_stream_upstream_zone nginx_modules_stream_geoip nginx_modules_stream_realip nginx_modules_stream_ssl_preread nginx_modules_mail_imap nginx_modules_mail_pop3 nginx_modules_mail_smtp nginx_modules_http_auth_ldap nginx_modules_http_auth_pam nginx_modules_http_brotli nginx_modules_http_cache_purge nginx_modules_http_dav_ext nginx_modules_http_echo nginx_modules_http_fancyindex nginx_modules_http_geoip2 nginx_modules_http_headers_more nginx_modules_http_javascript nginx_modules_http_lua nginx_modules_http_memc nginx_modules_http_metrics nginx_modules_http_mogilefs nginx_modules_http_naxsi nginx_modules_http_push_stream nginx_modules_http_security nginx_modules_http_slowfs_cache nginx_modules_http_sticky nginx_modules_http_upload_progress nginx_modules_http_upstream_check nginx_modules_http_vhost_traffic_status nginx_modules_stream_geoip2 nginx_modules_stream_javascript nginx_modules_http_spdy
 KEYWORDS: ~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86 ~x86-fbsd ~amd64-linux ~x86-linux
 LICENSE: BSD-2 BSD SSLeay MIT GPL-2 GPL-2+ GPL-3
+MD5: c194fde30b5d3542445bceb9f3789c35
 RDEPEND: dev-libs/libpcre:3/3= dev-libs/openssl:0/1.1= >=dev-libs/openssl-1.0.1c:0/1.1= dev-libs/openssl:0/1.1= app-arch/brotli:0/1= dev-libs/geoip sys-libs/zlib sys-libs/zlib sys-libs/zlib media-libs/gd:2/3=[jpeg,png] >=dev-lang/perl-5.8:0/5.30= dev-libs/libpcre:3/3= dev-libs/openssl:0/1.1= dev-libs/libxml2:2/2= dev-libs/libxslt virtual/pam dev-libs/yajl:0/2= dev-libs/libxml2 net-nds/openldap[ssl] !www-servers/nginx:0
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libGeoIP.so.1 libbrotlienc.so.1 libc.so.6 libcrypt.so.1 libcrypto.so.1.1 libdl.so.2 libexslt.so.0 libgd.so.3 liblber-2.4.so.2 libldap-2.4.so.2 libm.so.6 libpam.so.0 libpcre.so.1 libperl.so.5.30 libpthread.so.0 libssl.so.1.1 libxml2.so.2 libxslt.so.1 libyajl.so.2 libz.so.1
 RESTRICT: test
+SHA1: bbecc671175851f18306995f18fcce62b0029bc2
 SIZE: 1964828
 SLOT: mainline
 USE: aio arm64 elibc_glibc http http-cache http2 ipv6 kernel_linux libatomic nginx_modules_http_access nginx_modules_http_addition nginx_modules_http_auth_basic nginx_modules_http_auth_ldap nginx_modules_http_auth_pam nginx_modules_http_auth_request nginx_modules_http_autoindex nginx_modules_http_brotli nginx_modules_http_browser nginx_modules_http_cache_purge nginx_modules_http_charset nginx_modules_http_dav nginx_modules_http_dav_ext nginx_modules_http_degradation nginx_modules_http_echo nginx_modules_http_empty_gif nginx_modules_http_fancyindex nginx_modules_http_fastcgi nginx_modules_http_flv nginx_modules_http_geo nginx_modules_http_geoip nginx_modules_http_grpc nginx_modules_http_gunzip nginx_modules_http_gzip nginx_modules_http_gzip_static nginx_modules_http_headers_more nginx_modules_http_image_filter nginx_modules_http_javascript nginx_modules_http_limit_conn nginx_modules_http_limit_req nginx_modules_http_map nginx_modules_http_memc nginx_modules_http_memcached nginx_modules_http_metrics nginx_modules_http_mirror nginx_modules_http_mogilefs nginx_modules_http_mp4 nginx_modules_http_naxsi nginx_modules_http_perl nginx_modules_http_proxy nginx_modules_http_push_stream nginx_modules_http_random_index nginx_modules_http_realip nginx_modules_http_referer nginx_modules_http_rewrite nginx_modules_http_scgi nginx_modules_http_secure_link nginx_modules_http_slice nginx_modules_http_slowfs_cache nginx_modules_http_spdy nginx_modules_http_split_clients nginx_modules_http_ssi nginx_modules_http_sticky nginx_modules_http_stub_status nginx_modules_http_sub nginx_modules_http_upload_progress nginx_modules_http_upstream_check nginx_modules_http_upstream_hash nginx_modules_http_upstream_ip_hash nginx_modules_http_upstream_keepalive nginx_modules_http_upstream_least_conn nginx_modules_http_upstream_zone nginx_modules_http_userid nginx_modules_http_uwsgi nginx_modules_http_vhost_traffic_status nginx_modules_http_xslt nginx_modules_mail_imap nginx_modules_mail_smtp nginx_modules_stream_access nginx_modules_stream_javascript nginx_modules_stream_limit_conn nginx_modules_stream_map nginx_modules_stream_realip nginx_modules_stream_return nginx_modules_stream_split_clients nginx_modules_stream_ssl_preread nginx_modules_stream_upstream_hash nginx_modules_stream_upstream_least_conn nginx_modules_stream_upstream_zone pcre ssl userland_GNU
