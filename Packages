@@ -12,9 +12,9 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs buildpkg c
 GENTOO_MIRRORS: http://gentoo.mirrors.easynews.com/linux/gentoo/ http://www.gtlib.gatech.edu/pub/gentoo rsync://rsync.gtlib.gatech.edu/gentoo ftp://ftp.ussg.iu.edu/pub/linux/gentoo https://gentoo.ussg.indiana.edu/ http://gentoo.ussg.indiana.edu/ https://gentoo.osuosl.org/ http://gentoo.osuosl.org/ http://gentoo.mirrors.pair.com/ https://mirrors.rit.edu/gentoo/ http://mirrors.rit.edu/gentoo/ ftp://mirrors.rit.edu/gentoo/ rsync://mirrors.rit.edu/gentoo/ https://mirror.sjc02.svwh.net/gentoo/ http://mirror.sjc02.svwh.net/gentoo/ http://gentoo.mirrors.tds.net/gentoo http://mirror.lug.udel.edu/pub/gentoo/ http://gentoo.cs.utah.edu/
 IUSE_IMPLICIT: prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 682
+PACKAGES: 688
 PROFILE: default/linux/arm64/17.0/desktop
-TIMESTAMP: 1582756203
+TIMESTAMP: 1582756451
 USE: X a52 aac acl acpi ada_target_gnat_2018 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias arm64 berkdb blake2 bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words caps cdda cdr cli clockdiff collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog consolekit cpu_flags_arm_crc32 cpu_flags_arm_edsp cpu_flags_arm_thumb cpu_flags_arm_thumb2 cpu_flags_arm_v4 cpu_flags_arm_v5 cpu_flags_arm_v6 cpu_flags_arm_v7 cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 crypt cups cxx dbus dri dts dvdr elibc_glibc emboss encode exif flac fortran gdbm geoip2 gif gles2 gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx gtk iconv icu idn input_devices_evdev ipv6 jpeg json kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms ldap libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libtirpc lz4 lzo mad metalink mng mp3 mp4 mpeg ncurses nls nptl office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php7-2 png policykit postgres_targets_postgres10 postgres_targets_postgres11 ppds python python_single_target_python3_6 python_targets_python2_7 python_targets_python3_6 qt5 readline ruby_targets_ruby24 ruby_targets_ruby25 sctp seccomp smtp snmp spell split-usr ssl startup-notification svg tcpd tftpd tiff tools tracepath traceroute6 truetype udev udisks unicode upower usb userland_GNU utils video_cards_fbdev video_cards_mali video_cards_panfrost video_cards_vc4 vorbis wxwidgets x264 xattr xcb xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid zlib zstd
 USERLAND: GNU
 USE_EXPAND: ABI_MIPS ABI_PPC ABI_RISCV ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_SSL ELIBC ENLIGHTENMENT_MODULES FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LIRC_DEVICES LLVM_TARGETS MONKEYD_PLUGINS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFED_DRIVERS OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS USERLAND UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XFCE_PLUGINS XTABLES_ADDONS
@@ -974,6 +974,63 @@ USE: arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1582358116
 REPO: gentoo
 
+BDEPEND: >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
+BUILD_TIME: 1581128718
+CPV: app-emulation/libvirt-6.0.0
+DEFINED_PHASES: compile configure install postinst preinst prepare setup test
+DEPEND: acct-user/qemu acct-group/libvirt app-misc/scrub >=dev-libs/glib-2.48.0 dev-libs/libgcrypt:0 dev-libs/libnl:3 >=dev-libs/libxml2-2.7.6 >=net-analyzer/openbsd-netcat-1.105-r1 >=net-libs/gnutls-1.0.25:0/30= net-libs/libssh2 net-libs/libtirpc net-libs/rpcsvc-proto >=net-misc/curl-7.18.0 sys-apps/dmidecode >=sys-apps/util-linux-2.17 sys-devel/gettext sys-libs/ncurses:0/6= sys-libs/readline:0/8= sys-libs/libcap-ng sys-apps/dbus >=sys-auth/polkit-0.9 >=app-emulation/qemu-1.5.0 dev-libs/yajl virtual/udev >=x11-libs/libpciaccess-0.10.9 || ( dev-lang/python:3.7 dev-lang/python:3.6 ) app-text/xhtml1 dev-lang/perl dev-libs/libxslt dev-perl/XML-XPath dev-python/docutils virtual/pkgconfig
+EAPI: 7
+IUSE: apparmor audit +caps +dbus dtrace firewalld fuse glusterfs iscsi iscsi-direct +libvirtd lvm libssh lxc +macvtap nfs nls numa openvz parted pcap phyp policykit +qemu rbd sasl selinux +udev +vepa virtualbox virt-network wireshark-plugins xen zfs kernel_linux
+KEYWORDS: ~amd64 ~arm64 ~ppc64 ~x86
+LICENSE: LGPL-2.1
+MD5: 854a1bfcd192459b80eeb631638d8e51
+PROVIDES: arm_64: libvirt-admin.so.0 libvirt-lxc.so.0 libvirt-qemu.so.0 libvirt.so.0 libvirt_driver_interface.so libvirt_driver_nodedev.so libvirt_driver_nwfilter.so libvirt_driver_qemu.so libvirt_driver_secret.so libvirt_driver_storage.so libvirt_storage_backend_fs.so libvirt_storage_backend_scsi.so libvirt_storage_file_fs.so lockd.so
+RDEPEND: acct-user/qemu acct-group/libvirt app-misc/scrub >=dev-libs/glib-2.48.0 dev-libs/libgcrypt:0 dev-libs/libnl:3 >=dev-libs/libxml2-2.7.6 >=net-analyzer/openbsd-netcat-1.105-r1 >=net-libs/gnutls-1.0.25:0/30= net-libs/libssh2 net-libs/libtirpc net-libs/rpcsvc-proto >=net-misc/curl-7.18.0 sys-apps/dmidecode >=sys-apps/util-linux-2.17 sys-devel/gettext sys-libs/ncurses:0/6= sys-libs/readline:0/8= sys-libs/libcap-ng sys-apps/dbus >=sys-auth/polkit-0.9 >=app-emulation/qemu-1.5.0 dev-libs/yajl virtual/udev >=x11-libs/libpciaccess-0.10.9
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libacl.so.1 libblkid.so.1 libc.so.6 libcap-ng.so.0 libcurl.so.4 libdbus-1.so.3 libdevmapper.so.1.02 libdl.so.2 libgcc_s.so.1 libgio-2.0.so.0 libglib-2.0.so.0 libgnutls.so.30 libgobject-2.0.so.0 libm.so.6 libnl-3.so.200 libpciaccess.so.0 libpthread.so.0 libreadline.so.8 libssh2.so.1 libtirpc.so.3 libudev.so.1 libutil.so.1 libxml2.so.2 libyajl.so.2
+SHA1: 5b71370e4fe3682603647acc2d0918816136a705
+SIZE: 9362007
+SLOT: 0/6.0.0
+USE: arm64 caps dbus elibc_glibc kernel_linux libvirtd macvtap nls policykit qemu udev userland_GNU vepa
+MTIME: 1581128747
+REPO: gentoo
+
+BUILD_TIME: 1581129197
+CPV: app-emulation/libvirt-glib-3.0.0
+DEFINED_PHASES: compile configure install postinst postrm preinst prepare
+DEPEND: dev-libs/libxml2:2 >=app-emulation/libvirt-1.2.6:0/6.0.0= >=dev-libs/glib-2.38.0:2 >=dev-libs/gobject-introspection-1.36.0:0/0= dev-util/glib-utils dev-util/gtk-doc-am >=dev-util/intltool-0.35.0 virtual/pkgconfig || ( dev-lang/vala:0.46 dev-lang/vala:0.44 dev-lang/vala:0.40 dev-lang/vala:0.36 ) >=app-portage/elt-patches-20170815 app-arch/xz-utils dev-util/desktop-file-utils x11-misc/shared-mime-info
+EAPI: 6
+IUSE: +introspection nls +vala
+KEYWORDS: amd64 ~ppc64 x86
+LICENSE: LGPL-2.1
+MD5: d02b6aa32b99dac405895f43aa490081
+PROVIDES: arm_64: libvirt-gconfig-1.0.so.0 libvirt-glib-1.0.so.0 libvirt-gobject-1.0.so.0
+RDEPEND: dev-libs/libxml2:2 >=app-emulation/libvirt-1.2.6:0/6.0.0= >=dev-libs/glib-2.38.0:2 >=dev-libs/gobject-introspection-1.36.0:0/0=
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libvirt.so.0 libxml2.so.2
+SHA1: d5ee00238b6afcb2f27da77b48057d4d6a48c64f
+SIZE: 401154
+USE: arm64 elibc_glibc introspection kernel_linux nls userland_GNU vala
+MTIME: 1581129208
+REPO: gentoo
+
+BDEPEND: >=dev-lang/python-2.7.5-r2:2.7 dev-lang/python:3.6 dev-lang/python:3.7 dev-lang/perl sys-apps/texinfo virtual/pkgconfig sys-devel/gettext virtual/pkgconfig
+BUILD_TIME: 1580226607
+CPV: app-emulation/qemu-4.2.0-r1
+DEFINED_PHASES: compile configure info install postinst postrm prepare pretend setup test
+DEPEND: >=dev-libs/glib-2.0 sys-libs/zlib sys-apps/attr dev-libs/libxml2 x11-libs/libxkbcommon >=x11-libs/pixman-0.28.0 dev-libs/libaio >=media-libs/alsa-lib-1.0.13 app-arch/bzip2 sys-libs/libcap-ng >=net-misc/curl-7.15.4 >=sys-apps/dtc-1.5.0 x11-libs/gtk+:3 virtual/jpeg:0/0= sys-libs/ncurses:0/6=[unicode] sys-libs/ncurses:0/6= virtual/opengl media-libs/libepoxy media-libs/mesa media-libs/mesa[egl,gbm] media-libs/libpng:0/16= media-sound/pulseaudio media-libs/libsdl2[X] media-libs/libsdl2 >=sys-libs/libseccomp-2.1.0 >=app-emulation/spice-protocol-0.12.3 >=app-emulation/spice-0.12.0 >=virtual/libusb-1-r2 >=sys-apps/usbredir-0.6 sys-libs/libcap ~sys-firmware/edk2-ovmf-201905[binary] ~sys-firmware/ipxe-1.0.0_p20190728[binary] ~sys-firmware/seabios-1.12.0[binary,seavgabios] ~sys-firmware/sgabios-0.1_pre8[binary] ~sys-firmware/edk2-ovmf-201905[binary] ~sys-firmware/ipxe-1.0.0_p20190728[binary] ~sys-firmware/seabios-1.12.0[binary,seavgabios] ~sys-firmware/sgabios-0.1_pre8[binary] >=sys-kernel/linux-headers-2.6.35 sys-libs/libcap
+EAPI: 7
+IUSE: accessibility +aio alsa bzip2 capstone +caps +curl debug doc +fdt glusterfs gnutls gtk infiniband iscsi jemalloc +jpeg kernel_linux kernel_FreeBSD lzo ncurses nfs nls numa opengl +oss +pin-upstream-blobs plugins +png pulseaudio python rbd sasl +seccomp sdl selinux smartcard snappy spice ssh static static-user systemtap tci test usb usbredir vde +vhost-net vhost-user-fs virgl virtfs +vnc vte xattr xen xfs +xkb qemu_softmmu_targets_aarch64 qemu_softmmu_targets_alpha qemu_softmmu_targets_arm qemu_softmmu_targets_cris qemu_softmmu_targets_hppa qemu_softmmu_targets_i386 qemu_softmmu_targets_m68k qemu_softmmu_targets_microblaze qemu_softmmu_targets_microblazeel qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_ppc qemu_softmmu_targets_ppc64 qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_s390x qemu_softmmu_targets_sh4 qemu_softmmu_targets_sh4eb qemu_softmmu_targets_sparc qemu_softmmu_targets_sparc64 qemu_softmmu_targets_x86_64 qemu_softmmu_targets_xtensa qemu_softmmu_targets_xtensaeb qemu_softmmu_targets_lm32 qemu_softmmu_targets_moxie qemu_softmmu_targets_tricore qemu_softmmu_targets_unicore32 qemu_user_targets_aarch64 qemu_user_targets_alpha qemu_user_targets_arm qemu_user_targets_cris qemu_user_targets_hppa qemu_user_targets_i386 qemu_user_targets_m68k qemu_user_targets_microblaze qemu_user_targets_microblazeel qemu_user_targets_mips qemu_user_targets_mips64 qemu_user_targets_mips64el qemu_user_targets_mipsel qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_ppc qemu_user_targets_ppc64 qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_s390x qemu_user_targets_sh4 qemu_user_targets_sh4eb qemu_user_targets_sparc qemu_user_targets_sparc64 qemu_user_targets_x86_64 qemu_user_targets_xtensa qemu_user_targets_xtensaeb qemu_user_targets_aarch64_be qemu_user_targets_armeb qemu_user_targets_mipsn32 qemu_user_targets_mipsn32el qemu_user_targets_ppc64abi32 qemu_user_targets_ppc64le qemu_user_targets_sparc32plus qemu_user_targets_tilegx kernel_linux python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 +filecaps
+KEYWORDS: ~amd64 ~arm64 ~ppc ~ppc64 ~x86
+LICENSE: GPL-2 LGPL-2 BSD-2
+MD5: b2242eff35a126832070aec4d54a6250
+RDEPEND: >=dev-libs/glib-2.0 sys-libs/zlib sys-apps/attr dev-libs/libxml2 x11-libs/libxkbcommon >=x11-libs/pixman-0.28.0 dev-libs/libaio >=media-libs/alsa-lib-1.0.13 app-arch/bzip2 sys-libs/libcap-ng >=net-misc/curl-7.15.4 >=sys-apps/dtc-1.5.0 x11-libs/gtk+:3 virtual/jpeg:0/0= sys-libs/ncurses:0/6=[unicode] sys-libs/ncurses:0/6= virtual/opengl media-libs/libepoxy media-libs/mesa media-libs/mesa[egl,gbm] media-libs/libpng:0/16= media-sound/pulseaudio media-libs/libsdl2[X] media-libs/libsdl2 >=sys-libs/libseccomp-2.1.0 >=app-emulation/spice-protocol-0.12.3 >=app-emulation/spice-0.12.0 >=virtual/libusb-1-r2 >=sys-apps/usbredir-0.6 sys-libs/libcap ~sys-firmware/edk2-ovmf-201905[binary] ~sys-firmware/ipxe-1.0.0_p20190728[binary] ~sys-firmware/seabios-1.12.0[binary,seavgabios] ~sys-firmware/sgabios-0.1_pre8[binary] ~sys-firmware/edk2-ovmf-201905[binary] ~sys-firmware/ipxe-1.0.0_p20190728[binary] ~sys-firmware/seabios-1.12.0[binary,seavgabios] ~sys-firmware/sgabios-0.1_pre8[binary] acct-group/kvm
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libSDL2-2.0.so.0 libX11.so.6 libaio.so.1 libasound.so.2 libbz2.so.1.0 libc.so.6 libcairo.so.2 libcap-ng.so.0 libcap.so.2 libcurl.so.4 libepoxy.so.0 libfdt.so.1 libgbm.so.1 libgcc_s.so.1 libgdk-3.so.0 libgdk_pixbuf-2.0.so.0 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgtk-3.so.0 libjpeg.so.62 libm.so.6 libncursesw.so.6 libpam.so.0 libpixman-1.so.0 libpng16.so.16 libpthread.so.0 libpulse.so.0 librt.so.1 libseccomp.so.2 libspice-server.so.1 libstdc++.so.6 libtinfow.so.6 libusb-1.0.so.0 libusbredirparser.so.1 libutil.so.1 libxkbcommon.so.0 libz.so.1
+RESTRICT: test
+SHA1: 6381c385ccbde79d4a7dae18c873c42db9912168
+SIZE: 32163069
+USE: aio alsa arm64 bzip2 caps curl elibc_glibc fdt filecaps gtk jpeg kernel_linux ncurses nls opengl oss pin-upstream-blobs png pulseaudio python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_arm qemu_softmmu_targets_i386 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 sdl seccomp spice usb usbredir userland_GNU vhost-net virtfs vnc xattr xkb
+MTIME: 1580226684
+REPO: gentoo
+
 BUILD_TIME: 1582358284
 CPV: app-emulation/runc-1.0.0_rc9
 DEFINED_PHASES: compile install prepare test unpack
@@ -990,6 +1047,54 @@ SHA1: 8667bc47509487ef9adcbb182e96014d1674e6ca
 SIZE: 4573130
 USE: ambient arm64 elibc_glibc kernel_linux kmem seccomp userland_GNU
 MTIME: 1582358313
+REPO: gentoo
+
+BDEPEND: || ( dev-lang/python:3.7 dev-lang/python:3.6 ) virtual/pkgconfig || ( ( dev-lang/python:3.7 >=dev-python/pyparsing-1.5.6-r2[python_targets_python3_7(-),python_single_target_python3_7(+)] dev-python/six[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 >=dev-python/pyparsing-1.5.6-r2[python_targets_python3_6(-),python_single_target_python3_6(+)] dev-python/six[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+BUILD_TIME: 1578500491
+CPV: app-emulation/spice-0.14.2
+DEFINED_PHASES: compile configure install postinst prepare setup
+DEPEND: dev-lang/orc >=dev-libs/glib-2.22:2 media-libs/opus sys-libs/zlib virtual/jpeg:0/0= >=x11-libs/pixman-0.17.7 dev-libs/openssl:0/0= >=app-emulation/spice-protocol-0.14.0
+EAPI: 7
+IUSE: libressl lz4 sasl smartcard static-libs gstreamer
+KEYWORDS: ~amd64 ~arm64 ~x86
+LICENSE: LGPL-2.1
+MD5: 6c43da24091c15cea44ec28223eb96f6
+PROVIDES: arm_64: libspice-server.so.1
+RDEPEND: dev-lang/orc >=dev-libs/glib-2.22:2 media-libs/opus sys-libs/zlib virtual/jpeg:0/0= >=x11-libs/pixman-0.17.7 dev-libs/openssl:0/0=
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libcrypto.so.1.0.0 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libjpeg.so.62 libm.so.6 libopus.so.0 libpixman-1.so.0 libpthread.so.0 librt.so.1 libssl.so.1.0.0 libz.so.1
+SHA1: 210ec7f2342229b19b645bd05e6f7ec2a9c64f62
+SIZE: 696952
+USE: arm64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1578500494
+REPO: gentoo
+
+BUILD_TIME: 1564917328
+CPV: app-emulation/spice-protocol-0.14.0
+DEFINED_PHASES: -
+EAPI: 7
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE: BSD
+MD5: 81a75549cf06860c8df8bf517a79c026
+SHA1: 94e66ac4a1490cfaf22fb2bb73a2c3cbaf706865
+SIZE: 28580
+USE: arm64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1564917336
+REPO: gentoo
+
+BUILD_TIME: 1578404431
+CPV: app-emulation/virt-manager-2.2.1
+DEFINED_PHASES: compile configure install postinst postrm preinst prepare setup test
+DEPEND: !app-emulation/virtinst dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python3_6] app-cdr/cdrtools >=app-emulation/libvirt-glib-1.0.0[introspection] dev-libs/libxml2[python,python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] dev-python/ipaddr[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] dev-python/libvirt-python[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] dev-python/pygobject:3[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] dev-python/requests[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] >=sys-libs/libosinfo-0.2.10[introspection] gnome-base/dconf >=net-libs/gtk-vnc-0.3.8[gtk3(+),introspection] net-misc/spice-gtk[usbredir,gtk3,introspection] net-misc/x11-ssh-askpass x11-libs/gtk+:3[introspection] x11-libs/gtksourceview:4[introspection] x11-libs/vte:2.91[introspection] sys-auth/polkit[introspection] dev-lang/perl dev-util/intltool >=app-portage/elt-patches-20170815 app-arch/xz-utils dev-util/desktop-file-utils x11-misc/shared-mime-info dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python3_6] dev-python/setuptools[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)]
+EAPI: 6
+IUSE: gnome-keyring gtk policykit sasl python_targets_python3_6 python_targets_python3_7 python_single_target_python3_6 python_single_target_python3_7
+KEYWORDS: amd64 ~ppc64 x86
+LICENSE: GPL-2
+MD5: b66d55a320c023d25f2fa23ed3d6f9ae
+RDEPEND: !app-emulation/virtinst dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python3_6] app-cdr/cdrtools >=app-emulation/libvirt-glib-1.0.0[introspection] dev-libs/libxml2[python,python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] dev-python/ipaddr[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] dev-python/libvirt-python[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] dev-python/pygobject:3[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] dev-python/requests[python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)] >=sys-libs/libosinfo-0.2.10[introspection] gnome-base/dconf >=net-libs/gtk-vnc-0.3.8[gtk3(+),introspection] net-misc/spice-gtk[usbredir,gtk3,introspection] net-misc/x11-ssh-askpass x11-libs/gtk+:3[introspection] x11-libs/gtksourceview:4[introspection] x11-libs/vte:2.91[introspection] sys-auth/polkit[introspection] dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python3_6]
+SHA1: c8a1eb05a71bd255cc03758805175efa5bdc6c93
+SIZE: 1346819
+USE: arm64 elibc_glibc gtk kernel_linux policykit python_single_target_python3_6 python_targets_python3_6 python_targets_python3_7 userland_GNU
+MTIME: 1578404443
 REPO: gentoo
 
 BUILD_TIME: 1564201458
