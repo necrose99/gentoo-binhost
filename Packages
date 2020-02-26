@@ -12,9 +12,9 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs buildpkg c
 GENTOO_MIRRORS: http://gentoo.mirrors.easynews.com/linux/gentoo/ http://www.gtlib.gatech.edu/pub/gentoo rsync://rsync.gtlib.gatech.edu/gentoo ftp://ftp.ussg.iu.edu/pub/linux/gentoo https://gentoo.ussg.indiana.edu/ http://gentoo.ussg.indiana.edu/ https://gentoo.osuosl.org/ http://gentoo.osuosl.org/ http://gentoo.mirrors.pair.com/ https://mirrors.rit.edu/gentoo/ http://mirrors.rit.edu/gentoo/ ftp://mirrors.rit.edu/gentoo/ rsync://mirrors.rit.edu/gentoo/ https://mirror.sjc02.svwh.net/gentoo/ http://mirror.sjc02.svwh.net/gentoo/ http://gentoo.mirrors.tds.net/gentoo http://mirror.lug.udel.edu/pub/gentoo/ http://gentoo.cs.utah.edu/
 IUSE_IMPLICIT: prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 624
+PACKAGES: 626
 PROFILE: default/linux/arm64/17.0/desktop
-TIMESTAMP: 1582720757
+TIMESTAMP: 1582721290
 USE: X a52 aac acl acpi ada_target_gnat_2018 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias arm64 berkdb blake2 bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words caps cdda cdr cli clockdiff collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog consolekit cpu_flags_arm_crc32 cpu_flags_arm_edsp cpu_flags_arm_thumb cpu_flags_arm_thumb2 cpu_flags_arm_v4 cpu_flags_arm_v5 cpu_flags_arm_v6 cpu_flags_arm_v7 cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 crypt cups cxx dbus dri dts dvdr elibc_glibc emboss encode exif flac fortran gdbm geoip2 gif gles2 gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx gtk iconv icu idn input_devices_evdev ipv6 jpeg json kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms ldap libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libtirpc lz4 lzo mad metalink mng mp3 mp4 mpeg ncurses nls nptl office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php7-2 png policykit postgres_targets_postgres10 postgres_targets_postgres11 ppds python python_single_target_python3_6 python_targets_python2_7 python_targets_python3_6 qt5 readline ruby_targets_ruby24 ruby_targets_ruby25 sctp seccomp smtp snmp spell split-usr ssl startup-notification svg tcpd tftpd tiff tools tracepath traceroute6 truetype udev udisks unicode upower usb userland_GNU utils video_cards_fbdev video_cards_mali video_cards_panfrost video_cards_vc4 vorbis wxwidgets x264 xattr xcb xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid zlib zstd
 USERLAND: GNU
 USE_EXPAND: ABI_MIPS ABI_PPC ABI_RISCV ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_SSL ELIBC ENLIGHTENMENT_MODULES FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LIRC_DEVICES LLVM_TARGETS MONKEYD_PLUGINS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFED_DRIVERS OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS USERLAND UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XFCE_PLUGINS XTABLES_ADDONS
@@ -438,23 +438,23 @@ MTIME: 1581127820
 REPO: gentoo
 
 BDEPEND: sys-devel/flex virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
-BUILD_TIME: 1578377248
+BUILD_TIME: 1582721225
 CPV: app-admin/syslog-ng-3.25.1
 DEFINED_PHASES: configure install postinst prepare setup
-DEPEND: >=dev-libs/glib-2.10.1:2 >=dev-libs/ivykis-0.42.4 >=dev-libs/libpcre-6.1:3/3= !dev-libs/eventlog >=sys-apps/tcp-wrappers-7.6 dev-libs/openssl:0/0=
+DEPEND: >=dev-libs/glib-2.10.1:2 >=dev-libs/ivykis-0.42.4 >=dev-libs/libpcre-6.1:3/3= !dev-libs/eventlog sys-libs/libcap dev-libs/libmaxminddb:0/0.0.7= >=dev-libs/json-c-0.9:0/4= dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python3_6] net-libs/libesmtp net-analyzer/net-snmp >=sys-apps/tcp-wrappers-7.6 dev-libs/openssl:0/1.1=
 EAPI: 7
 IUSE: amqp caps dbi geoip2 http ipv6 json kafka libressl mongodb pacct python redis smtp snmp test spoof-source systemd tcpd python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 python_single_target_python3_6 python_single_target_python3_7 python_single_target_python3_8
 KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~riscv ~s390 ~sh ~sparc ~x86
 LICENSE: GPL-2+ LGPL-2.1+
-MD5: c09d1b290f4ab1d97ce1beb200f6c7b0
-PROVIDES: arm_64: libadd-contextual-data.so libaffile.so libafprog.so libafsocket.so libafstomp.so libafuser.so libappmodel.so libbasicfuncs.so libcef.so libconfgen.so libcryptofuncs.so libcsvparser.so libdbparser.so libdisk-buffer.so libevtlog-3.25.so.0 libexamples.so libgraphite.so libhook-commands.so libkvformat.so liblinux-kmsg-format.so libloggen_helper-3.25.so.0 libloggen_plugin-3.25.so.0 libloggen_socket_plugin.so libloggen_ssl_plugin.so libmap-value-pairs.so libpseudofile.so libsecret-storage.so.0 libsnmptrapd-parser.so libstardate.so libsyslog-ng-3.25.so.0 libsyslogformat.so libsystem-source.so libtags-parser.so libtfgetent.so libtimestamp.so libxml.so
-RDEPEND: >=dev-libs/glib-2.10.1:2 >=dev-libs/ivykis-0.42.4 >=dev-libs/libpcre-6.1:3/3= !dev-libs/eventlog >=sys-apps/tcp-wrappers-7.6 dev-libs/openssl:0/0=
-REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libcrypto.so.1.0.0 libdl.so.2 libglib-2.0.so.0 libgmodule-2.0.so.0 libgthread-2.0.so.0 libivykis.so.0 libm.so.6 libpcre.so.1 libpthread.so.0 libssl.so.1.0.0 libwrap.so.0
+MD5: 76306eeb73b0426ec06507e188aaaea7
+PROVIDES: arm_64: libadd-contextual-data.so libaffile.so libafprog.so libafsmtp.so libafsocket.so libafstomp.so libafuser.so libappmodel.so libbasicfuncs.so libcef.so libconfgen.so libcryptofuncs.so libcsvparser.so libdbparser.so libdisk-buffer.so libevtlog-3.25.so.0 libexamples.so libgeoip2-plugin.so libgraphite.so libhook-commands.so libjson-plugin.so libkvformat.so liblinux-kmsg-format.so libloggen_helper-3.25.so.0 libloggen_plugin-3.25.so.0 libloggen_socket_plugin.so libloggen_ssl_plugin.so libmap-value-pairs.so libmod-python.so libpseudofile.so libsecret-storage.so.0 libsnmpdest.so libsnmptrapd-parser.so libstardate.so libsyslog-ng-3.25.so.0 libsyslogformat.so libsystem-source.so libtags-parser.so libtfgetent.so libtimestamp.so libxml.so
+RDEPEND: >=dev-libs/glib-2.10.1:2 >=dev-libs/ivykis-0.42.4 >=dev-libs/libpcre-6.1:3/3= !dev-libs/eventlog sys-libs/libcap dev-libs/libmaxminddb:0/0.0.7= >=dev-libs/json-c-0.9:0/4= dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python3_6] net-libs/libesmtp net-analyzer/net-snmp >=sys-apps/tcp-wrappers-7.6 dev-libs/openssl:0/1.1=
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libcap.so.2 libcrypto.so.1.1 libdl.so.2 libesmtp.so.6 libglib-2.0.so.0 libgmodule-2.0.so.0 libgthread-2.0.so.0 libivykis.so.0 libjson-c.so.4 libm.so.6 libmaxminddb.so.0 libnetsnmp.so.35 libpcre.so.1 libpthread.so.0 libpython3.6m.so.1.0 libssl.so.1.1 libwrap.so.0
 RESTRICT: test
-SHA1: 5b539715e601b4dd3b5404866fda65c50bf7f3fb
-SIZE: 974671
-USE: arm64 elibc_glibc ipv6 kernel_linux python_single_target_python3_6 python_targets_python3_6 python_targets_python3_7 tcpd userland_GNU
-MTIME: 1578377260
+SHA1: fb51136d4d15938f4ec2dc733f1ee39f42e80cbc
+SIZE: 1066043
+USE: arm64 caps elibc_glibc geoip2 ipv6 json kernel_linux python python_single_target_python3_6 python_targets_python3_6 smtp snmp tcpd userland_GNU
+MTIME: 1582721259
 REPO: gentoo
 
 BUILD_TIME: 1582540945
@@ -4507,6 +4507,22 @@ USE: arm64 elibc_glibc kernel_linux python_targets_python2_7 python_targets_pyth
 MTIME: 1582356411
 REPO: gentoo
 
+BDEPEND: dev-python/setuptools[python_targets_python2_7(-),python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/pygments[python_targets_python2_7(-),python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] >=dev-lang/python-2.7.5-r2:2.7 dev-lang/python:3.6 dev-lang/python:3.7 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/setuptools[python_targets_python2_7(-),python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]
+BUILD_TIME: 1578372567
+CPV: dev-python/docutils-0.15.2
+DEFINED_PHASES: compile configure install prepare test
+EAPI: 7
+IUSE: python_targets_pypy3 python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 python_targets_python3_8
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sh ~sparc ~x86 ~ppc-aix ~x64-cygwin ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+LICENSE: BSD-2 GPL-3 public-domain
+MD5: 0881cd24a651516ec4bcb25ca5977963
+RDEPEND: >=dev-lang/python-2.7.5-r2:2.7 dev-lang/python:3.6 dev-lang/python:3.7 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),python_targets_python3_6(-),python_targets_python3_7(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]
+SHA1: 8e236af0cd96028489f68c52c9543282df44da43
+SIZE: 4484233
+USE: arm64 elibc_glibc kernel_linux python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 userland_GNU
+MTIME: 1578372587
+REPO: gentoo
+
 BDEPEND: virtual/pkgconfig dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python3_6(-),-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/setuptools[python_targets_python3_6(-),-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]
 BUILD_TIME: 1582565423
 CPV: dev-python/fuse-python-1.0.0
@@ -6016,6 +6032,26 @@ SHA1: 95d2adbf54e1d4c5aedad8798a487f5c687af21b
 SIZE: 5199868
 USE: X arm64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1564308483
+REPO: gentoo
+
+BDEPEND: sys-devel/gettext virtual/pkgconfig
+BUILD_TIME: 1582721228
+CPV: media-gfx/fontforge-20190801
+DEFINED_PHASES: configure install postinst postrm preinst prepare setup
+DEPEND: dev-libs/glib dev-libs/libltdl:0 dev-libs/libxml2:2/2= >=media-libs/freetype-2.3.7:2/2= >=x11-libs/cairo-1.6:0/0= x11-libs/pango:0/0= media-libs/giflib:0/7= virtual/jpeg:0 media-libs/libpng:0/16= media-libs/tiff:0/0= >=x11-libs/gtk+-3.10:3 dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python3_6] sys-libs/readline:0/8= media-libs/libuninameslist:0/0= x11-libs/libX11:0/0= x11-libs/libXi:0/0= >=x11-libs/pango-1.10:0/0=[X] !media-gfx/pfaedit x11-base/xorg-proto dev-util/desktop-file-utils x11-misc/shared-mime-info
+EAPI: 7
+IUSE: cairo truetype-debugger gif gtk jpeg png +python readline test tiff svg unicode X python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 python_single_target_python2_7 python_single_target_python3_6 python_single_target_python3_7
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+LICENSE: BSD GPL-3+
+MD5: 087b7b04d83f5b80d0c1938839ff909d
+PROVIDES: arm_64: fontforge.so libfontforge.so.3 libfontforgeexe.so.3 libgdraw.so.6 libgunicode.so.5 libgutils.so.3 psMat.so
+RDEPEND: dev-libs/glib dev-libs/libltdl:0 dev-libs/libxml2:2/2= >=media-libs/freetype-2.3.7:2/2= >=x11-libs/cairo-1.6:0/0= x11-libs/pango:0/0= media-libs/giflib:0/7= virtual/jpeg:0 media-libs/libpng:0/16= media-libs/tiff:0/0= >=x11-libs/gtk+-3.10:3 dev-lang/python:3.6 >=dev-lang/python-exec-2:2/2=[python_targets_python3_6] sys-libs/readline:0/8= media-libs/libuninameslist:0/0= x11-libs/libX11:0/0= x11-libs/libXi:0/0= >=x11-libs/pango-1.10:0/0=[X] !media-gfx/pfaedit
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libcairo-gobject.so.2 libcairo.so.2 libfreetype.so.6 libgdk-3.so.0 libgdk_pixbuf-2.0.so.0 libgif.so.7 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libjpeg.so.62 libm.so.6 libpango-1.0.so.0 libpangocairo-1.0.so.0 libpng16.so.16 libpthread.so.0 libpython3.6m.so.1.0 libreadline.so.8 libtiff.so.5 libuninameslist.so.0 libxml2.so.2 libz.so.1
+RESTRICT: test
+SHA1: caadb746badecb2f12a3b04a535b21d7f5c1df42
+SIZE: 10185041
+USE: X arm64 cairo elibc_glibc gif gtk jpeg kernel_linux png python python_single_target_python3_6 python_targets_python2_7 python_targets_python3_6 readline svg tiff unicode userland_GNU
+MTIME: 1582721286
 REPO: gentoo
 
 BDEPEND: sys-devel/flex sys-devel/libtool virtual/pkgconfig >=sys-devel/gettext-0.14.5 dev-lang/swig dev-lang/swig dev-lang/swig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
