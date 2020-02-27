@@ -40,6 +40,11 @@ github upload can be easily configured.
 Enable gentoo binhost by adding the following lines.
 ```python
 # enable binhost
+PORTAGE_BINHOST_HEADER_URI="https://github.com/necrose99/gentoo-binhost/releases/download/${CHOST}"
+Our local fork.
+"bin-host-
+url-1 +2 " can also be done , on amd64 i offten have sabayon's devs , or Redcore and @Pentoo on binhosts, to get base packages before spec'ing them to my like , tens too be easiey just just add a few features 
+binhost.conf and sourcing it as an arry into make.conf, has come to mind. 
 PORTAGE_BINHOST_HEADER_URI="https://github.com/spreequalle/gentoo-binhost/releases/download/${CHOST}"
 FEATURES="${FEATURES} buildpkg"
 USE="${USE} bindist"
