@@ -15,6 +15,7 @@ from github import Github, GithubException, UnknownObjectException, InputGitAuth
 gh_repo = 'necrose99/gentoo-binhost'
 gh_token = '<your github access token>'
 gh_branch = os.environ['CHOST'] # use chost as git branch name
+# aarch64-coretexa53-linux-gnu-systemd can overide chost slug. 
 gh_relName = gh_branch + '/' + os.environ['CATEGORY'] # create new github release for every category
 gh_author = InputGitAuthor(os.environ['PORTAGE_BUILD_USER'], os.environ['PORTAGE_BUILD_USER'] + '@' + socket.getfqdn())
 
